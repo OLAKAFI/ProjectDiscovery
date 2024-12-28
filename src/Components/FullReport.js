@@ -40,8 +40,7 @@ function FullReport({ results }) {
               return (
                 <Col md={12} key={key} className="my-3">
                     <Container className='pb-3'>
-                        <h2>{key.replace(/([A-Z])/g, " $1")}</h2>
-                        <h3>{value}</h3>
+                        <h2>{key.replace(/([A-Z])/g, " $1")} {value}</h2>
                         <p>{description}</p>
                     </Container>
                     <hr></hr>

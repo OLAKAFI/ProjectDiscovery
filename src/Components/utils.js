@@ -11,19 +11,42 @@ export function reduceToSingleDigit(number) {
     return number;
 }
   
+// export function calculateLifePath(day, month, year) {
+//     const daySum = reduceToSingleDigit(day);
+//     const monthSum = reduceToSingleDigit(month);
+//     const yearSum = reduceToSingleDigit(year);
+//     let lifePath = daySum + monthSum + yearSum;
+  
+//     if ([11, 22, 33].includes(lifePath)) {
+//       return `Life Path: Master number ${lifePath}`;
+//     } else {
+//       return `${reduceToSingleDigit(lifePath)}`;
+//     }
+// }
+  
+
+
 export function calculateLifePath(day, month, year) {
-    const daySum = reduceToSingleDigit(day);
-    const monthSum = reduceToSingleDigit(month);
-    const yearSum = reduceToSingleDigit(year);
-    let lifePath = daySum + monthSum + yearSum;
-  
+    // Combine all digits of day, month, and year into one total sum
+    const lifePath = day
+        .toString()
+        .split('')
+        .concat(month.toString().split(''))
+        .concat(year.toString().split(''))
+        .reduce((sum, digit) => sum + parseInt(digit), 0);
+
+    // Check for Master Numbers
     if ([11, 22, 33].includes(lifePath)) {
-      return `Life Path: Master number ${lifePath}`;
-    } else {
-      return `${reduceToSingleDigit(lifePath)}`;
+        const reducedLifePath = reduceToSingleDigit(lifePath);
+        return  `${lifePath}/${reducedLifePath}`.toString();
+        
     }
+
+    // If not a Master Number, reduce to a single digit
+    return `${reduceToSingleDigit(lifePath)}`;
 }
-  
+
+
 export function determineZodiac(day, month) {
 
   console.log(`Input received - Day: ${day}, Month: ${month}`); // Debugging input
