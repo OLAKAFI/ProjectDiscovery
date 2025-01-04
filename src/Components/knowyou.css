@@ -1,0 +1,109 @@
+
+/* Wrapper for the component */
+.know-you-wrapper {
+  margin-left: 250px; /* For desktop layout with sidebar */
+  padding: 1rem;
+  background-color: #5d3fd3;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Container styling */
+.know-you-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #4b3aab;
+  /* border-radius: 12px; */
+  color: white;
+  text-align: center;
+}
+
+/* Content column */
+.content {
+  text-align: left;
+  padding: 1rem;
+}
+
+.content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.content p {
+  font-size: 1rem;
+  color: #c4c4c4;
+  margin-bottom: 1rem;
+}
+
+.content button {
+  font-size: 1rem;
+  padding: 0.6rem 1.5rem;
+}
+
+/* Image styling */
+.image-container img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+/* Responsive styles */
+@media (min-width: 1025px) {
+  /* Ensure sidebar is fixed and content adjusts properly */
+  .know-you-container{
+    margin-left: 250px ; /* Remove sidebar space */
+    /* padding: 1rem; */
+  }
+}
+
+@media (max-width: 1024px) {
+  .know-you-wrapper {
+    margin-left: 0 ; /* Remove sidebar space */
+    padding: 1rem;
+  }
+
+  .content h2 {
+    font-size: 1.6rem;
+  }
+
+  .content p {
+    font-size: 0.9rem;
+  }
+
+  .content button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .content h2 {
+    font-size: 1.4rem;
+  }
+
+  .content p {
+    font-size: 0.85rem;
+  }
+
+  .content button {
+    font-size: 0.85rem;
+    padding: 0.4rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content h2 {
+    font-size: 1.2rem;
+  }
+
+  .content p {
+    font-size: 0.8rem;
+  }
+
+  .content button {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.8rem;
+  }
+}

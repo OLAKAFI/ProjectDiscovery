@@ -1,0 +1,13 @@
+#sidebar {
+    height: 100vh;
+    position: fixed;
+  }
+  
+  .wrapper {
+    padding: 20px;
+  }
+  
+  .card {
+    text-align: center;
+  }
+  
