@@ -1,0 +1,55 @@
+/* General Styling */
+.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #5d3fd3; /* Purple background */
+  color: #ffffff;
+  text-align: center;
+  padding: 20px; /* Padding for smaller screens */
+}
+
+/* Content Styling */
+.introduction .content {
+  /* max-width: 800px; Restricts width for larger screens */
+  width: 100%; /* Ensures full width for smaller screens */
+}
+
+/* Heading */
+.introduction h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Subheading */
+.introduction p {
+  font-size: 1.1rem;
+  color: #e0e0e0; /* Softer grey for subheading text */
+  margin: 1rem 0;
+}
+
+/* Button */
+.introduction button {
+  margin-top: 1.5rem;
+}
+
+/* Responsive Styling */
+@media (max-width: 1024px) {
+  .introduction h1 {
+    font-size: 2rem; /* Smaller heading size */
+  }
+
+  .introduction p {
+    font-size: 1rem; /* Adjust subheading size */
+  }
+}
+
+@media (min-width: 1025px) {
+  .introduction .content {
+    margin-left: 250px;
+    width: max-content;
+  }
+}
