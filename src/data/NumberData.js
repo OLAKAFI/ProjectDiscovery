@@ -199,6 +199,7 @@ const NumberData = [
                 a natural problem solver and someone others look to when the unexpected happens. Your willingness to take risks allows you to seize opportunities that others might shy away from, 
                 often leading to unique and exciting life experiences.
 
+                
                 In social settings, your magnetic personality shines. You have excellent communication skills and a charm that makes you a natural people magnet. You can connect with just about anyone,
                 which not only enriches your personal relationships but also opens doors professionally. Careers in travel, sales, media, entrepreneurship, or anything that allows for variety and 
                 independence are ideal for you. However, the pursuit of freedom can come with its challenges. You may sometimes struggle with restlessness or a tendency to avoid long-term commitments. 
