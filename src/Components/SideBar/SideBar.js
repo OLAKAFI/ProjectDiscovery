@@ -23,24 +23,20 @@ function SideBar({ isSignedIn, handleSignOut }) {
                 <nav className="mobile-navbar">
                     <ul className="mobile-menu">
                         <li>
-                            <NavLink to="/intro">Intro</NavLink>
+                            <NavLink to="/intro">Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/know-you">Know Yourself</NavLink>
+                            <NavLink to="/know-you">Overview</NavLink>
                         </li>
                         {isSignedIn && (
                             <li>
-                                <NavLink to="/details-page">Details Page</NavLink>
+                                <NavLink to="/details-page">Discover Me</NavLink>
                             </li>
                         )}
                         <li>
-                            <NavLink to="/what-we-do">What we do</NavLink>
-                        </li>
-                        {isSignedIn && (
-                            <li>
                                 <NavLink to="/get-in-touch">Get in touch</NavLink>
-                            </li>
-                        )}
+                        </li>
+                  
                         {isSignedIn && (
                             <li>
                                 <NavLink to="/signout" onClick={handleSignOut}>
@@ -57,24 +53,20 @@ function SideBar({ isSignedIn, handleSignOut }) {
                         <nav>
                             <ul>
                                 <li>
-                                    <NavLink to="/intro">Intro</NavLink>
+                                    <NavLink to="/intro">Home</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/know-you">Know Yourself</NavLink>
+                                    <NavLink to="/know-you">Overview</NavLink>
                                 </li>
                                 {isSignedIn && (
                                     <li>
-                                        <NavLink to="/details-page">Details Page</NavLink>
+                                        <NavLink to="/details-page">Discover Me</NavLink>
                                     </li>
                                 )}
                                 <li>
-                                    <NavLink to="/what-we-do">What we do</NavLink>
-                                </li>
-                                {isSignedIn && (
-                                    <li>
                                         <NavLink to="/get-in-touch">Get in touch</NavLink>
-                                    </li>
-                                )}
+                                </li>
+
                                 {isSignedIn && (
                                     <li>
                                         <NavLink to="/signout" onClick={handleSignOut}>

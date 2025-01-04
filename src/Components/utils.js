@@ -27,6 +27,10 @@ export function reduceToSingleDigit(number) {
 
 
 export function calculateLifePath(day, month, year) {
+    if (!day || !month || !year) {
+        return "INVALID DATE INPUT";
+    }
+
     // Combine all digits of day, month, and year into one total sum
     const lifePath = day
         .toString()
@@ -127,7 +131,14 @@ export function getChineseZodiac(year) {
 }
   
 export function calculatePersonalityNumber(day) {
-    return `${reduceToSingleDigit(day)}`;
+    let dayString = day.toString().padStart(2, '0');  // Adds leading zero if necessary
+    if (!day ) {
+        return "INVALID DATE INPUT";
+    }
+
+    // Convert to number and reduce to a single digit
+    let dayNumber = Number(dayString);
+    return `${reduceToSingleDigit(dayNumber)}`;
 }
   
 export function assignNumbersToAlphabet() {
@@ -158,6 +169,9 @@ export function calculateUniversalYear() {
   
 
 export function calculatePersonalYear(day, month) {
+    if (!day || !month) {
+        return "INVALID DATE INPUT";
+    }
     const currentYear = new Date().getFullYear();
     const universalYear = 
       currentYear.toString().split('').reduce((sum, digit) => sum + parseInt(digit), 0)
@@ -171,6 +185,10 @@ export function calculatePersonalYear(day, month) {
 }
 
 export function calculateFirstPinnacleCycle(day, month) {
+    if (!day || !month) {
+        return "INVALID DATE INPUT";
+    }
+
     const daySum = reduceToSingleDigit(day);
     const monthSum = reduceToSingleDigit(month);
 
@@ -179,6 +197,9 @@ export function calculateFirstPinnacleCycle(day, month) {
 }
 
 export function calculateSecondPinnacleCycle(day, year) {
+    if (!day || !year) {
+        return "INVALID DATE INPUT";
+    }
     const daySum = reduceToSingleDigit(day);
     const yearSum = reduceToSingleDigit(year);
 
@@ -187,22 +208,34 @@ export function calculateSecondPinnacleCycle(day, year) {
 }
 
 export function calculateThirdPinnacleCycle(day, month, year) {
-    const daySum = reduceToSingleDigit(day);
-    const monthSum = reduceToSingleDigit(month);
-    const yearSum = reduceToSingleDigit(year);
+    // Calculate the first pinnacle cycle
+    let firstPinnacleCycle = calculateFirstPinnacleCycle(day, month);
+    if (isNaN(firstPinnacleCycle)) {
+        return "INVALID DATE INPUT";
+    }
+    
+    // Calculate the second pinnacle cycle
+    let secondPinnacleCycle = calculateSecondPinnacleCycle(day, year);
+    if (isNaN(secondPinnacleCycle)) {
+        return "INVALID DATE INPUT";
+    }
 
-    const firstPinnacleCycleSum =  monthSum + daySum;
-    const firstPinnacleCycle = reduceToSingleDigit(firstPinnacleCycleSum);
+    // Ensure both pinnacle cycles are valid (not undefined)
+    // if (firstPinnacleCycle === undefined || secondPinnacleCycle === undefined) {
+    //     return "First or second pinnacle cycle not calculated properly.";
+    // }
 
-    const secondPinnacleCycleSum =  yearSum + daySum;
-    const secondPinnacleCycle = reduceToSingleDigit(secondPinnacleCycleSum);
+    // Add the first and second pinnacle cycles and reduce to a single digit
+    let thirdPinnacleCycle = reduceToSingleDigit(Number(firstPinnacleCycle) + Number(secondPinnacleCycle));
 
-
-    let thirdPinnacleCycle = firstPinnacleCycle + secondPinnacleCycle;
-        return `${reduceToSingleDigit(thirdPinnacleCycle)}`;
+    return `${thirdPinnacleCycle}`;
 }
 
+
 export function calculateFourthPinnacleCycle(month, year) {
+    if (!month || !year) {
+        return "INVALID DATE INPUT";
+    }
     const monthSum = reduceToSingleDigit(month);
     const yearSum = reduceToSingleDigit(year);
 

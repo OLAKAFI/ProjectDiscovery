@@ -4,7 +4,6 @@ import {Col, Button, Row} from 'react-bootstrap';
 import KnowYouData from '../data/KnowYouData'
 import { useNavigate } from "react-router-dom";
 import "./knowyou.css"; // Assuming you have a custom CSS file for styling
-import lpimage from '../images/lifepath.jpg'
 
 const KnowYou = ({ id }) => {
 
@@ -30,7 +29,10 @@ const KnowYou = ({ id }) => {
       <section id="know_you" className="know-you-container" >
         <Row className="align-items-center " > 
             <Col xs={12} md={4} className=" image-container">
-                    <img src={ lpimage} alt={content.title} className="  img-fluid "/>
+                    <img src={content.image} alt={content.title} className="  img-fluid "/>
+                    
+                      
+                    
             </Col>
             <Col xs={12} md={8} className="content">
                 <div className="">
@@ -50,44 +52,3 @@ const KnowYou = ({ id }) => {
 
 export default KnowYou;
 
-
-
-// import React from "react";
-// import { Col, Button, Row } from "react-bootstrap";
-// import { useNavigate } from "react-router-dom";
-// import "./knowyou.css";
-// import lpimage from "../images/lifepath.jpg";
-
-// const KnowYou = ({ id, data }) => {
-//   const navigate = useNavigate();
-
-//   // Find the content that matches the provided ID
-//   const content = data.find((item) => item.id === id);
-
-//   if (!content) return <p>Content not found.</p>;
-
-//   const handleLearnMore = () => {
-//     navigate(`/know-you/${id}`);
-//   };
-
-//   return (
-//     <div className="know-you-wrapper">
-//       <section className="know-you-container">
-//         <Row className="align-items-center">
-//           <Col xs={12} md={4} className="image-container">
-//             <img src={lpimage} alt={content.title} className="img-fluid" />
-//           </Col>
-//           <Col xs={12} md={8} className="content">
-//             <h2>{content.title}</h2>
-//             <p>{content.shortdescription}</p>
-//             <Button variant="primary" onClick={handleLearnMore}>
-//               {content.buttonText}
-//             </Button>
-//           </Col>
-//         </Row>
-//       </section>
-//     </div>
-//   );
-// };
-
-// export default KnowYou;

@@ -1,6 +1,8 @@
 
 // src/App.js
 import React, { useState } from "react";
+// import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Introduction from "./Components/Introduction";
@@ -11,6 +13,7 @@ import SignInSignUpPage from "./Components/SignInSignUpPage";
 import SignOutPage from "./Components/SignOutPage";
 import Footers from "./Components/Footer/Footers";
 import SideBar from "./Components/SideBar/SideBar";
+import GetInTouchPage from "./Components/GetInTouchPage";
 
 
 function App() {
@@ -30,6 +33,7 @@ function App() {
             <Route path="/know-you"  element={<KnowYouPage/>} />
             <Route path="/know-you/:id"  element={<LearnMorePage/>} />
             <Route path="/details-page"  element={<DetailsPage/>} />
+            <Route path="/get-in-touch"  element={<GetInTouchPage/>} />
             <Route path="/signout" element={ !isSignedIn ? (<Navigate to="/" replace />) : (<SignOutPage setIsSignedIn={setIsSignedIn}/>) } />
             {/* <Route path="/details-page/full-report"  element={<FullReportPage/>} /> */}
 

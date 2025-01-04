@@ -14,6 +14,8 @@ import {
   calculatePersonalYear,
   calculateFirstPinnacle,
   calculateSecondPinnacle,
+  calculateThirdPinnacle,
+  calculateFourthPinnacle
 } from './utils';
 
 function FullReportPage() {
@@ -43,7 +45,11 @@ function FullReportPage() {
         const PersonalYear = calculatePersonalYear(day, month);
         const FirstPinnacle = calculateFirstPinnacle(day, month);
         const SecondPinnacle = calculateSecondPinnacle(day, year);
-    
+        const ThirdPinnacle = calculateThirdPinnacle(day, month, year);
+        const FourthPinnacle = calculateFourthPinnacle(month, year);
+
+
+
         setResults({
           LifePath,
           WesternZodiac,
@@ -54,6 +60,8 @@ function FullReportPage() {
           PersonalYear,
           FirstPinnacle,
           SecondPinnacle,
+          ThirdPinnacle,
+          FourthPinnacle,
         });
     };
 

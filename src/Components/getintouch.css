@@ -1,0 +1,70 @@
+/* General Styling */
+#get-in-touch {
+    background: linear-gradient(to bottom, #f9f9f9, #ffffff);
+  }
+  
+  /* Section Header */
+  #get-in-touch h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  #get-in-touch p {
+    font-size: 1.1rem;
+  }
+  
+  /* Form Styling */
+  .contact-form-container {
+    background: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .input-field {
+    border: 2px solid #d9d9d9;
+    border-radius: 5px;
+  } */
+  
+  .input-field:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Button Hover */
+  button:hover {
+    background: #0056b3 !important;
+    border-color: #0056b3 !important;
+  }
+  
+  /* Contact Info */
+  .contact-info h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .contact-info address {
+    font-style: normal;
+    line-height: 1.8;
+  }
+  
+  /* Social Icons */
+  .social-icon {
+    font-size: 1.5rem;
+    color: #6c757d;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icon:hover {
+    color: #007bff;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 576px) {
+    #get-in-touch h2 {
+      font-size: 2rem;
+    }
+  
+    #get-in-touch p {
+      font-size: 1rem;
+    }
+  }
+  

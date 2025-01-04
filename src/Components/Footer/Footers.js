@@ -16,7 +16,6 @@ function Footers() {
                             <ul>
                                 <li><a href="/intro">Intro</a></li>
                                 <li><a href="/know-you">Know Yourself</a></li>
-                                <li><a href="/details-page">Details Page</a></li>
                             </ul>
                         </div>
                         <div className="footer-section">

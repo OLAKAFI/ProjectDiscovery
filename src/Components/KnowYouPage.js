@@ -7,7 +7,7 @@ function KnowYouPage() {
     <div className=''>
         <KnowYou id="lifePath"/>
         <KnowYou id="personalityNumber"/>
-        <KnowYou id="destinyNumber"/>
+        <KnowYou id="expressionNumber"/>
         <KnowYou id="pinnacleCycle"/>
         <KnowYou id="universalYear"/>
         <KnowYou id="personalYear"/>

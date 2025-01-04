@@ -15,11 +15,13 @@ function LearnMorePage() {
     }
   return (
     <div id="wrapper">
-        <section id="intro" className="" >
-            <div className="introduction-container">
-                <h1>{content.title}</h1>
-                <p>{content.description}</p>
-                <p>Additional information about {content.title}...</p>
+        <section id="intro" className="know-you-container" >
+            <div className='vh-100 row align-items-center'>
+              <div className=" px-5">
+                  <h1>{content.title}</h1>
+                  <p>{content.description}</p>
+                  <p>Additional information about {content.title}...</p>
+              </div>
             </div>
         </section>
     </div>

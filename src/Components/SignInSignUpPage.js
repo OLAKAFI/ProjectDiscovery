@@ -70,6 +70,7 @@ function SignInSignUpPage({ setIsSignedIn }) {
                   <Form.Control
                     type="text"
                     placeholder="Full Name"
+                    size="lg"
                     className="form-control-lg input-field text-dark"
                     required
                   />
@@ -79,6 +80,7 @@ function SignInSignUpPage({ setIsSignedIn }) {
                 <Form.Control
                   type="email"
                   placeholder="Email"
+                  size="lg"
                   className="form-control-lg input-field text-dark"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -89,29 +91,30 @@ function SignInSignUpPage({ setIsSignedIn }) {
                 <Form.Control
                   type="password"
                   placeholder="Password"
+                  size="lg"
                   className="form-control-lg input-field text-dark"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required
                 />
               </Form.Group>
-              <Button type="submit" size="lg" variant="primary" className="my-3">
+              <Button type="submit" size="lg" variant="primary" className="my-3 w-100">
                 {isSignUp ? "Register" : "Log In"}
               </Button>
             </Form>
             <Button
               onClick={handleGoogleSignIn}
               size="lg"
-              variant="secondary"
-              className="my-3"
+              variant="white"
+              className="mb-3 border border-1 border-primary w-100"
             >
-              Sign in with Google
+              Sign Up with Google
             </Button>
 
             <h5>
               {isSignUp ? "Already have an account?" : "Don't have an account?"}{" "}
               <span
-                className="toggle-link text-decoration-none"
+                className="toggle-link text-decoration-none "
                 onClick={() => setIsSignUp(!isSignUp)}
               >
                 {isSignUp ? "Sign In" : "Sign Up"}

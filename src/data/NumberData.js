@@ -72,7 +72,10 @@ const NumberData = [
                 might be innate, you might have to learn and develop more leadership and management skills through a transformation processs. However, you will notice that you are always singled out for position of leadership and you will thrive well in every 
                 environment that give you a platform to be in control. The downside to this life path might be that because of the strong desire for independence, you might always appear overly self-focused or impatient whille
                 overlookig the needs or feelings of others. Also, because of your high ambition spirit, you may be consumed by your own goals and ambitions. Regarding career or proffessions, you will thrivr in any environment
-                that gives you the opportunity to lead or manage people and resources whether as an enterpreneur, manager, politician, mentor/coach, among other careers in this line.`,
+                that gives you the opportunity to lead or manage people and resources whether as an enterpreneur, manager, politician, mentor/coach, among other careers in this line.
+
+                
+            `,
 
             2: `Your purpose centers on fostering harmony, peace, and connection. You possess a natural gift for diplomacy, cooperation, and emotional understanding, 
                 making you a powerful mediator and peacemaker. Your heightened sensitivity and intuition allow you to deeply perceive others’ needs, enabling you to offer empathy and support effortlessly.
@@ -94,6 +97,7 @@ const NumberData = [
                 the way. By embracing your strengths, addressing your challenges, and remaining true to your values, you have the potential to profoundly impact the lives of those around you. Remember, 
                 the key to your success lies in balance: giving and receiving, listening and speaking, supporting others and caring for yourself. Through this balance, you will fulfill your destiny of 
                 creating a more connected and harmonious world.
+
             `,
 
             '11/2': `carry an incredibly unique combination of qualities that sets you apart from others. You are someone with both the vision and the ability to lead, but also the deep empathy and
@@ -106,6 +110,8 @@ const NumberData = [
 
                     Your purpose is to create positive change by leading with love and understanding, leaving a lasting impact through your ability to bring people together. Embrace your leadership
                      potential while nurturing your emotional well-being, and you will fulfill your life’s mission of fostering harmony and growth in the world.
+
+                     
             `,
 
             3: `Life path represent what purpose we are here on this universe to fulfil. It is meant to be our main goal and focus as we navigate our life. This means that everything we do while here should resonate 
@@ -132,6 +138,7 @@ const NumberData = [
                 encouraging you to grow holistically. Ultimately, your purpose is to bring joy, inspiration, and a sense of connection to the world. By embracing your creativity, developing focus, and
                 nurturing deeper relationships, you can leave a lasting impression on everyone you encounter. Your journey is about expressing your unique essence while fostering meaningful connections
                 that uplift and inspire others. 
+                     
             `,
 
             4: `Life path represent what purpose we are here on this universe to fulfil. It is meant to be our main goal and focus as we navigate our life. This means that everything we do while here 
@@ -156,6 +163,7 @@ const NumberData = [
                 will make your journey smoother and more fulfilling. Also, do not be afraid to express your emotions or seek support when you need it. You have a tendency to carry others’ burdens, but 
                 you are not meant to do it all alone. Your life is about building something meaningful and lasting, whether that is a career, a family, or a contribution to your community. By staying true 
                 to your values of hard work and dependability—and making sure to take care of yourself along the way—you are destined to create a life that is both stable and deeply rewarding.
+
             `,
 
             '22/4': `You possess a rare and powerful combination of leadership, vision, and practicality. Vibrating on a higher frequency of Life Path 2, you embody the 
@@ -203,6 +211,7 @@ const NumberData = [
                 in areas that truly matter, like your health, finances, and close relationships. Remember, your journey is not just about exploring new horizons—it is about using those experiences to grow
                 and make a meaningful impact. Your life is meant to be an adventure, full of twists and turns, discoveries, and growth. By staying true to your independent spirit while balancing it with
                 focus and connection, you will live a life that is vibrant, fulfilling, and entirely your own.
+
             `,
 
             6: `Life path represent what purpose we are here on this universe to fulfil. It is meant to be our main goal and focus as we navigate our life. This means that everything we do while here should resonate 
@@ -230,6 +239,8 @@ const NumberData = [
                 yourself the time and space to grow and recharge. Recognize that it is okay to say no when needed and that your own happiness is just as valuable as the happiness of those you care for. Your
                 journey is about creating a world of love, harmony, and beauty, one act of kindness at a time. By blending your sense of responsibility with your creative spirit and setting healthy
                 boundaries, you will leave a lasting impact on the people and communities you touch.
+
+                
             `,
 
             '33/6': `You embody a rare and powerful combination of creativity, nurturing, and responsibility. Vibrating on a higher frequency of Life Path 3, you radiate
@@ -285,7 +296,8 @@ const NumberData = [
                 To thrive on this life path, embrace your introspective and spiritual side while staying grounded in the present. Make time for self-reflection, but also remember the importance of 
                 connection and balance. Be mindful of your habits and avoid escaping into unhelpful patterns that may hinder your growth. Your path is about seeking truth and sharing the wisdom you 
                 uncover with others, creating a deeper understanding of the world and the unseen forces that guide us. Your journey is one of discovery, insight, and spiritual evolution. By trusting your
-                intuition, nurturing your intellectual curiosity, and finding harmony between solitude and connection, you can fulfill your purpose as a wise and insightful guide to those around you
+                intuition, nurturing your intellectual curiosity, and finding harmony between solitude and connection, you can fulfill your purpose as a wise and insightful guide to those around you.
+
             `,
 
             8: `Life path represent what purpose we are here on this universe to fulfil. It is meant to be our main goal and focus as we navigate our life. This means that everything we do while here 
@@ -337,33 +349,7 @@ const NumberData = [
 
                 Ultimately, your journey is about using your gifts to create a life of profound impact and fulfillment. Embrace your purpose to inspire and uplift, while also focusing on your personal 
                 growth and well-being. When you lead with love, authenticity, and balance, you embody the true essence of Life Path 9, leaving the world brighter and more unified than you found it.
-            `,
 
-            33: `Life path represent what purpose we are here on this universe to fulfil. It is meant to be our main goal and focus as we navigate our life. This means that everything we do while here should resonate 
-                to our life path.
-                
-                Your life’s purpose revolves around nurturing, responsibility, and creating harmony. You are naturally drawn to helping others, and your kindness, generosity, and sense of duty shape your
-                interactions with the world. Whether it is within your home, community, or workplace, you feel a deep commitment to improving the lives of those around you.
-
-                Your compassionate nature makes you a source of comfort and support to others. You have a special gift for creating a sense of warmth and security, often taking on the role of the 
-                caregiver. Your love for home and domestic comfort is strong, and you find joy in making your environment a peaceful and welcoming sanctuary. Community service and involvement are 
-                important to you. You feel fulfilled when you are actively contributing to the well-being of others, whether through volunteering, mentoring, or participating in local projects. 
-                You naturally seek harmony and balance, and your presence often helps to restore peace in challenging situations.
-
-                Creativity is another defining aspect of your personality. You have an artistic eye and an innate ability to bring beauty and meaning to whatever you do. This can manifest in areas like
-                design, music, writing, or any other creative field. Combined with your nurturing qualities, this makes you versatile, allowing you to flourish in careers that involve both care and
-                creativity.
-
-                Professionally, you excel in roles where you can serve, nurture, or guide others. Careers in caregiving, education, community work, or counseling align perfectly with your natural
-                strengths. At the same time, your artistic talents may lead you to creative pursuits like art, design, or any field that allows for self-expression.
-
-                In relationships, you are deeply loving, loyal, and protective. You have a tendency to put others’ needs before your own, which makes you a dependable partner, friend, and family member. 
-                However, it is important to remember to set boundaries and take care of yourself, too. Your selfless nature can sometimes lead to overextending yourself or neglecting your own well-being.
-
-                To truly thrive on this life path, embrace your nurturing instincts while learning to balance them with self-care. Your role as a caregiver is a gift, but it’s just as important to allow 
-                yourself the time and space to grow and recharge. Recognize that it is okay to say no when needed and that your own happiness is just as valuable as the happiness of those you care for. Your
-                journey is about creating a world of love, harmony, and beauty, one act of kindness at a time. By blending your sense of responsibility with your creative spirit and setting healthy
-                boundaries, you will leave a lasting impact on the people and communities you touch.
             `
           },
         },
@@ -488,6 +474,8 @@ const NumberData = [
                       Trust that this year is about creating the groundwork for lasting success. As you approach the end of this year, focus on strengthening relationships and building a supportive
                        network. Reflect on your individual progress and think about how to collaborate with others. Make sure to enter next year with a calm mindset, listen attentively, and let your
                         emotional intelligence lead you.
+
+
                 `,
 
                 2: `You are in a phase that emphasizes cooperation, patience, and emotional growth. This is a year to nurture relationships, whether personal or 
