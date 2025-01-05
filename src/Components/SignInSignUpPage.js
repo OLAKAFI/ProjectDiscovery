@@ -108,7 +108,7 @@ function SignInSignUpPage({ setIsSignedIn }) {
               variant="white"
               className="mb-3 border border-1 border-primary w-100"
             >
-              Sign Up with Google
+              {isSignUp ? "Sign Up with Google" : "Sign In with Google"}
             </Button>
 
             <h5>
