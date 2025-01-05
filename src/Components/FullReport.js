@@ -10,7 +10,6 @@ function FullReport({ results }) {
           <h2 className='mt-2 mb-5 text-center text-white fw-bold display-4'>Results</h2>
           <br/>
           <Row>
-            {/* {Object.entries(results).map(([key, value]) => ( */}
             {Object.entries(results).map(([key, value]) => {
              // Convert camelCase to snake_case to match NumberData.title
              const formattedTitle = key

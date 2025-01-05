@@ -1,7 +1,6 @@
 
 import React, { useState } from 'react';
 import Form from './Form';
-// import Results from './Results';
 import {Row, Col } from 'react-bootstrap';
 import './details.css';
 import './knowyou.css';
@@ -73,7 +72,6 @@ function DetailsPage() {
           <Row className=''>
             <Col  className=" ">
               <Form formData={formData} setFormData={setFormData} onCalculate={calculateAll} />
-              {/* <Results results={results} /> */}
               <FullReport results={results}/>
             </Col>
           </Row>

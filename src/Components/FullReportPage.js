@@ -73,7 +73,6 @@ function FullReportPage() {
             <Col  className=" ">
 
                 <Form formData={formData} setFormData={setFormData} onCalculate={calculateAll} results={results} />
-                          {/* Display results */}
                 {Object.keys(results).length === 0 ? (
                     <p>Loading results...</p>
                 ) : (

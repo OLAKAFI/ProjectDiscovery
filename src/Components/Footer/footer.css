@@ -1,6 +1,6 @@
-/* Footer Styling */
+
 .footer {
-    background-color: #6f42c1; /* Matches the purple background */
+    background-color: #6f42c1; 
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -9,14 +9,14 @@
 .footer-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /* Enables responsiveness */
+    flex-wrap: wrap; 
     gap: 20px;
     padding: 0 10%;
 }
 
 .footer-section {
-    flex: 1; /* Equal width sections */
-    min-width: 200px; /* Ensures responsiveness */
+    flex: 1; 
+    min-width: 200px; 
 }
 
 .footer-section h4 {
@@ -56,7 +56,7 @@
     padding-top: 10px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;

@@ -1,12 +1,13 @@
-// Form.js
+
 import React from 'react';
 import './form.css';
 import { Form, Row, Col, Container, Button} from 'react-bootstrap';
-// import './getintouch.css'; // Ensure this file exists
+
 
 
 
 function UserForm({ formData, setFormData, onCalculate}) {
+  
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -27,7 +28,6 @@ function UserForm({ formData, setFormData, onCalculate}) {
           </h5>
 
           {/* Name Section */}
-          {/* <h4 className="form-section-heading mb-5">Enter your Personal Details</h4> */}
           <Row className="mb-4">
             <Col md={4} sm={12} className="mb-3">
               <Form.Group>

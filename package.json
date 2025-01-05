@@ -1,7 +1,7 @@
 {
   "name": "discover-me",
   "version": "0.1.0",
-  "homepage": "https://olakafi.github.io/ProjectDiscovery",
+  "homepage": "https://OLAKAFI.github.io/ProjectDiscovery",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
@@ -12,19 +12,20 @@
     "firebase": "^11.0.2",
     "node": "^21.5.0",
     "nvm": "^0.0.4",
-    "react": "^18.3.1",
+    "react": "^18.0.0",
     "react-bootstrap": "^2.10.7",
-    "react-dom": "^18.3.1",
+    "react-dom": "^18.0.0",
     "react-router-dom": "^6.28.0",
     "react-scripts": "^5.0.1",
-    "uuid": "^11.0.3",
-    "web-vitals": "^2.1.4"
+    "uuid": "^11.0.3"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-script eject"
   },
   "eslintConfig": {
     "extends": [
@@ -48,6 +49,7 @@
     "css-minimizer-webpack-plugin": "^7.0.0",
     "gh-pages": "^6.3.0",
     "react-app-rewired": "^2.2.1",
+    "web-vitals": "^4.2.4",
     "webpack": "^5.97.1"
   }
 }

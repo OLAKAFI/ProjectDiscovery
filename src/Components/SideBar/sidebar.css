@@ -1,23 +1,11 @@
 
-
-
-
-
-
-
-
-
-
-
-
-/* General Sidebar Styles (For Desktop) */
 #sidebar {
   position: fixed;
   top: 0;
   left: 0;
   width: 250px;
   height: 100vh;
-  background-color: #2d234a; /* Dark purple background */
+  background-color: #2d234a; 
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -43,7 +31,7 @@
 #sidebar nav ul li a {
   color: #b3b3b3;
   text-decoration: none;
-  font-size: 1rem; /* Default size */
+  font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
   transition: color 0.3s ease;
@@ -53,9 +41,9 @@
   color: #fff;
 }
 
-/* Mobile Navbar (Constant at the Top) */
+
 .mobile-navbar {
-  background-color: #2d234a; /* Match sidebar color */
+  background-color: #2d234a;
   color: white;
   padding: 10px 20px;
   display: flex;
@@ -65,7 +53,7 @@
   width: 100%;
   top: 0;
   z-index: 1000;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Slight shadow for distinction */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
 .mobile-menu {
@@ -86,7 +74,7 @@
 .mobile-menu li a {
   color: #b3b3b3;
   text-decoration: none;
-  font-size: 1rem; /* Default size */
+  font-size: 1rem; 
   text-transform: uppercase;
   font-weight: bold;
   padding: 10px 15px;
@@ -97,35 +85,35 @@
   color: #fff;
 }
 
-/* Hide Sidebar on Small Screens */
+
 @media (max-width: 1024px) {
   #sidebar {
     display: none;
   }
 }
 
-/* Show Sidebar on Larger Screens */
+
 @media (min-width: 1025px) {
   .mobile-navbar {
     display: none;
   }
 }
 
-/* Responsive Font Sizes for Mobile Navbar */
+
 @media (max-width: 1024px) {
   .mobile-menu li a {
-    font-size: 0.9rem; /* Slightly smaller font for tablet screens */
+    font-size: 0.9rem; 
   }
 }
 
 @media (max-width: 768px) {
   .mobile-menu li a {
-    font-size: 0.8rem; /* Smaller font for smaller screens */
+    font-size: 0.8rem; 
   }
 }
 
 @media (max-width: 480px) {
   .mobile-menu li a {
-    font-size: 0.7rem; /* Smallest font for mobile devices */
+    font-size: 0.7rem; 
   }
 }
