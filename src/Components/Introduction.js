@@ -5,6 +5,10 @@ import "./introduction.css";
 
 const Introduction = () => {
   const navigate = useNavigate();
+  const handleInsight = () => {
+    // Navigate to the dynamic route
+    navigate(`/know-you`);
+  };
   return (
     <section className="introduction">
       <div className="content text-center ">
@@ -13,7 +17,7 @@ const Introduction = () => {
           This is a platform that gives you the opportunity to start or continue
           your self-discovery journey.
         </p>
-        <Button onClick={() => navigate('/know-you')} variant="primary" size="lg" className="my-3 fs-5">Get Some Insight</Button>
+        <Button onClick={handleInsight} variant="primary" size="lg" className="my-3 fs-5">Get More Insight</Button>
       </div>
     </section>
   );
