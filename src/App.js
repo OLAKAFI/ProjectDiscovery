@@ -27,7 +27,7 @@ function App() {
       <div className="main-layout display-content-center">
         <SideBar isSignedIn={isSignedIn} handleSignOut={handleSignOut}/>
           <Routes className="content-area">
-            <Route path="/" element={isSignedIn ?  (<Navigate to="/" replace />) : (<SignInSignUpPage setIsSignedIn={setIsSignedIn}/>) } />
+            <Route path="/*" element={isSignedIn ?  (<Navigate to="/" replace />) : (<SignInSignUpPage setIsSignedIn={setIsSignedIn}/>) } />
             {/* <Route path="/welcome" element={<Register/>} /> */}
             <Route path="/intro" element={<Introduction/>} />
             <Route path="/know-you"  element={<KnowYouPage/>} />
