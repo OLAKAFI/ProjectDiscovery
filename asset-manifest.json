@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ProjectDiscovery/static/css/main.d7fffbe4.css",
+    "main.js": "/ProjectDiscovery/static/js/main.e0cf7c45.js",
+    "static/js/488.28a4a385.chunk.js": "/ProjectDiscovery/static/js/488.28a4a385.chunk.js",
+    "static/media/personalday.png": "/ProjectDiscovery/static/media/personalday.f98b8a9f71caa4bbba23.png",
+    "static/media/personalyear.png": "/ProjectDiscovery/static/media/personalyear.550673b9d7d343a39791.png",
+    "static/media/personalmonth.png": "/ProjectDiscovery/static/media/personalmonth.e136652cf5800314d03e.png",
+    "static/media/expression.png": "/ProjectDiscovery/static/media/expression.cff8fe7786583bb7013e.png",
+    "static/media/lifepath.png": "/ProjectDiscovery/static/media/lifepath.034ddfd8299764a18a17.png",
+    "static/media/personality.png": "/ProjectDiscovery/static/media/personality.c677576a49124b323793.png",
+    "static/media/fa-solid-900.ttf": "/ProjectDiscovery/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/universalyear.png": "/ProjectDiscovery/static/media/universalyear.55834d329fb1294831ab.png",
+    "static/media/fa-brands-400.ttf": "/ProjectDiscovery/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/ProjectDiscovery/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/pinnaclecycle.png": "/ProjectDiscovery/static/media/pinnaclecycle.8afa615bac32286b28e1.png",
+    "static/media/fa-brands-400.woff2": "/ProjectDiscovery/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "/ProjectDiscovery/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/fa-regular-400.woff2": "/ProjectDiscovery/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/ProjectDiscovery/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/ProjectDiscovery/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/ProjectDiscovery/index.html",
+    "main.d7fffbe4.css.map": "/ProjectDiscovery/static/css/main.d7fffbe4.css.map",
+    "main.e0cf7c45.js.map": "/ProjectDiscovery/static/js/main.e0cf7c45.js.map",
+    "488.28a4a385.chunk.js.map": "/ProjectDiscovery/static/js/488.28a4a385.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7fffbe4.css",
+    "static/js/main.e0cf7c45.js"
+  ]
+}
