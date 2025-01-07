@@ -30,17 +30,17 @@ function SideBar({ isSignedIn, handleSignOut }) {
                         </li>
                         {isSignedIn && (
                             <li>
-                                <NavLink to="/details-page">Discover Me</NavLink>
+                                <NavLink to="/details-page">Discovery</NavLink>
                             </li>
                         )}
                         <li>
-                                <NavLink to="/get-in-touch">Get in touch</NavLink>
+                                <NavLink to="/get-in-touch">Contact</NavLink>
                         </li>
                   
                         {isSignedIn && (
                             <li>
                                 <NavLink to="/signout" onClick={handleSignOut}>
-                                    Sign Out
+                                    Close
                                 </NavLink>
                             </li>
                         )}

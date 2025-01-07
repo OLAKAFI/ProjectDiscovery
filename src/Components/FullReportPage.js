@@ -70,7 +70,7 @@ function FullReportPage() {
         <div id='wrapper'>
           <Row className='know-you-container'>
             <h2 className='my-4 text-center text-white  display-4'>Results</h2>
-            <Col  className=" ">
+            <Col  className=" pb-5">
 
                 <Form formData={formData} setFormData={setFormData} onCalculate={calculateAll} results={results} />
                 {Object.keys(results).length === 0 ? (

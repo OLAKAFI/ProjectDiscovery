@@ -1,15 +1,14 @@
 import React, { useState } from "react";
-import { Form, Button, Row } from "react-bootstrap";
+import { Form, Button, Row, Col, Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { auth } from "./firebaseConfig"; // Firebase config file
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
-  // signOut,
   GoogleAuthProvider,
   signInWithPopup,
 } from "firebase/auth";
-import "./register.css"; // Import custom CSS for styling if needed
+import "./register.css"; // Import custom CSS for additional styling
 
 function SignInSignUpPage({ setIsSignedIn }) {
   const [isSignUp, setIsSignUp] = useState(false); // Toggles between sign-in and sign-up
@@ -21,27 +20,17 @@ function SignInSignUpPage({ setIsSignedIn }) {
     e.preventDefault();
     try {
       if (isSignUp) {
-        // Handle user registration
-        const userCredential = await createUserWithEmailAndPassword(
-          auth,
-          email,
-          password
-        );
+        const userCredential = await createUserWithEmailAndPassword(auth, email, password);
         console.log("User signed up:", userCredential.user);
       } else {
-        // Handle user login
-        const userCredential = await signInWithEmailAndPassword(
-          auth,
-          email,
-          password
-        );
+        const userCredential = await signInWithEmailAndPassword(auth, email, password);
         console.log("User signed in:", userCredential.user);
       }
-      setIsSignedIn(true); // Set signed-in state
-      navigate("/intro", { replace: true }); // Navigate to the welcome page
+      setIsSignedIn(true);
+      navigate("/intro", { replace: true });
     } catch (error) {
       console.error("Authentication error:", error.message);
-      alert(error.message); // Show error to the user
+      alert(error.message);
     }
   };
 
@@ -50,80 +39,75 @@ function SignInSignUpPage({ setIsSignedIn }) {
     try {
       const result = await signInWithPopup(auth, provider);
       console.log("Google Sign-In successful:", result.user);
-      setIsSignedIn(true); // Set signed-in state
-      navigate("/intro", { replace: true }); // Navigate to the welcome page
+      setIsSignedIn(true);
+      navigate("/intro", { replace: true });
     } catch (error) {
       console.error("Google Sign-In error:", error.message);
-      alert(error.message); // Show error to the user
+      alert(error.message);
     }
   };
 
   return (
-    <div id="wrapper">
-      <section id="register" className="know-you-container">
-        <Row className="vh-100 justify-content-center align-items-center">
-          <div className="auth-container text-dark">
-            <h2>{isSignUp ? "Sign Up" : "Sign In"}</h2>
-            <Form onSubmit={handleFormSubmit}>
-              {isSignUp && (
-                <Form.Group controlId="formFullName">
-                  <Form.Control
-                    type="text"
-                    placeholder="Full Name"
-                    size="lg"
-                    className="form-control-lg input-field text-dark"
-                    required
-                  />
-                </Form.Group>
-              )}
-              <Form.Group controlId="formEmail" className="my-3">
+    <Container fluid className="vh-100 d-flex align-items-center justify-content-center bg-light">
+      <Row className="w-100 justify-content-center">
+        <Col xs={12} sm={10} md={6} lg={4} className="auth-container p-4 shadow bg-white rounded">
+          <h2 className="text-center mb-4">{isSignUp ? "Sign Up" : "Sign In"}</h2>
+          <Form onSubmit={handleFormSubmit}>
+            {isSignUp && (
+              <Form.Group controlId="formFullName" className="mb-3">
                 <Form.Control
-                  type="email"
-                  placeholder="Email"
-                  size="lg"
-                  className="form-control-lg input-field text-dark"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  type="text"
+                  placeholder="Full Name"
+                  className="form-control-lg"
                   required
                 />
               </Form.Group>
-              <Form.Group controlId="formPassword" className="my-3">
-                <Form.Control
-                  type="password"
-                  placeholder="Password"
-                  size="lg"
-                  className="form-control-lg input-field text-dark"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  required
-                />
-              </Form.Group>
-              <Button type="submit" size="lg" variant="primary" className="my-3 w-100">
-                {isSignUp ? "Register" : "Log In"}
-              </Button>
-            </Form>
-            <Button
-              onClick={handleGoogleSignIn}
-              size="lg"
-              variant="white"
-              className="mb-3 border border-1 border-primary w-100"
-            >
-              {isSignUp ? "Sign Up with Google" : "Sign In with Google"}
+            )}
+            <Form.Group controlId="formEmail" className="mb-3">
+              <Form.Control
+                type="email"
+                placeholder="Email"
+                className="form-control-lg border border-2  border-secondary text-dark"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </Form.Group>
+            <Form.Group controlId="formPassword" className="mb-3">
+              <Form.Control
+                type="password"
+                placeholder="Password"
+                className="form-control-lg border border-2  border-secondary text-dark"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+              />
+            </Form.Group>
+            <Button type="submit" size="lg" variant="primary" className="w-100 mb-3">
+              {isSignUp ? "Register" : "Log In"}
             </Button>
-
-            <h5>
-              {isSignUp ? "Already have an account?" : "Don't have an account?"}{" "}
-              <span
-                className="toggle-link text-decoration-none "
-                onClick={() => setIsSignUp(!isSignUp)}
-              >
-                {isSignUp ? "Sign In" : "Sign Up"}
-              </span>
-            </h5>
-          </div>
-        </Row>
-      </section>
-    </div>
+          </Form>
+          <Button
+            onClick={handleGoogleSignIn}
+            size="lg"
+            variant="outline-primary"
+            className="w-100 mb-3"
+          >
+            {isSignUp ? "Sign Up with Google" : "Sign In with Google"}
+          </Button>
+          <p className="text-center">
+            {isSignUp ? "Already have an account?" : "Don't have an account?"}{" "}
+            <span
+              className="text-primary toggle-link"
+              onClick={() => setIsSignUp(!isSignUp)}
+              style={{ cursor: "pointer" }}
+            >
+              {isSignUp ? "Sign In" : "Sign Up"}
+            </span>
+          </p>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
