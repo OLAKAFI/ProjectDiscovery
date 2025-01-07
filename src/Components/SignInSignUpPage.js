@@ -58,7 +58,7 @@ function SignInSignUpPage({ setIsSignedIn }) {
                 <Form.Control
                   type="text"
                   placeholder="Full Name"
-                  className="form-control-lg"
+                  className="form-control-lg border border-2  border-secondary text-dark"
                   required
                 />
               </Form.Group>
