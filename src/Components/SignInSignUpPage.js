@@ -12,6 +12,7 @@ import "./register.css"; // Import custom CSS for additional styling
 
 function SignInSignUpPage({ setIsSignedIn }) {
   const [isSignUp, setIsSignUp] = useState(false); // Toggles between sign-in and sign-up
+  const [fullName, setFullName] = useState(""); // State to store full name
   const [email, setEmail] = useState(""); // User email
   const [password, setPassword] = useState(""); // User password
   const navigate = useNavigate(); // For programmatic navigation
@@ -21,18 +22,25 @@ function SignInSignUpPage({ setIsSignedIn }) {
     try {
       if (isSignUp) {
         const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+        
+  
         console.log("User signed up:", userCredential.user);
       } else {
         const userCredential = await signInWithEmailAndPassword(auth, email, password);
         console.log("User signed in:", userCredential.user);
+
+        
       }
       setIsSignedIn(true);
+      
       navigate("/intro", { replace: true });
     } catch (error) {
       console.error("Authentication error:", error.message);
       alert(error.message);
     }
   };
+
+  
 
   const handleGoogleSignIn = async () => {
     const provider = new GoogleAuthProvider();
@@ -59,6 +67,8 @@ function SignInSignUpPage({ setIsSignedIn }) {
                   type="text"
                   placeholder="Full Name"
                   className="form-control-lg border border-2  border-secondary text-dark"
+                  value={fullName} // Controlled component
+                  onChange={(e) => setFullName(e.target.value)} // Update state
                   required
                 />
               </Form.Group>
@@ -87,14 +97,14 @@ function SignInSignUpPage({ setIsSignedIn }) {
               {isSignUp ? "Register" : "Log In"}
             </Button>
           </Form>
-          <Button
+          {/* <Button
             onClick={handleGoogleSignIn}
             size="lg"
             variant="outline-primary"
             className="w-100 mb-3"
           >
             {isSignUp ? "Sign Up with Google" : "Sign In with Google"}
-          </Button>
+          </Button> */}
           <p className="text-center">
             {isSignUp ? "Already have an account?" : "Don't have an account?"}{" "}
             <span

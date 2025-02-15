@@ -39,8 +39,8 @@ function FullReport({ results }) {
               return (
                 <Col md={12} key={key} className="my-3">
                     <Container className='pb-3'>
-                        <h2>{key.replace(/([A-Z])/g, " $1")} {value}</h2>
-                        <h5>{description}</h5>
+                        <h2 className='fw-bold display-5' style={{color:''}}>{key.replace(/([A-Z])/g, " $1")} {value}</h2>
+                        <h5 className='fs-sm-5'>{description}</h5>
                     </Container>
                     <hr></hr>
                 </Col>

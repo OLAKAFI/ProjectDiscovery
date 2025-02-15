@@ -5,8 +5,8 @@ import "./knowyou.css"; // Assuming you have a custom CSS file for styling
 function KnowYouPage() {
   return (
     <div className=''>
-        <KnowYou id="lifePath"/>
         <KnowYou id="personalityNumber"/>
+        <KnowYou id="lifePath"/>
         <KnowYou id="expressionNumber"/>
         <KnowYou id="pinnacleCycle"/>
         <KnowYou id="universalYear"/>

@@ -5,10 +5,11 @@ import {Row, Col } from 'react-bootstrap';
 import './details.css';
 import './knowyou.css';
 import {
+  calculatePersonalityNumber,
   calculateLifePath,
   determineZodiac,
   getChineseZodiac,
-  calculatePersonalityNumber,
+  
   calculateDestinyNumber,
   calculateUniversalYear,
   calculatePersonalYear,
@@ -36,10 +37,11 @@ function FullReportPage() {
         const { firstName, middleName, lastName, day, month, year } = formData;
     
         // Perform calculations (life path, zodiac, etc.)
+        const PersonalityNumber = calculatePersonalityNumber(day);
         const LifePath = calculateLifePath(day, month, year);
         const WesternZodiac = determineZodiac(day, month);
         const ChineseZodiac = getChineseZodiac(year);
-        const PersonalityNumber = calculatePersonalityNumber(day);
+        
         const DestinyNumber = calculateDestinyNumber(firstName, middleName, lastName);
         const UniversalYear = calculateUniversalYear();
         const PersonalYear = calculatePersonalYear(day, month);
@@ -51,10 +53,11 @@ function FullReportPage() {
 
 
         setResults({
+          PersonalityNumber,
           LifePath,
           WesternZodiac,
           ChineseZodiac,
-          PersonalityNumber,
+          
           DestinyNumber,
           UniversalYear,
           PersonalYear,
@@ -69,7 +72,7 @@ function FullReportPage() {
     return (
         <div id='wrapper'>
           <Row className='know-you-container'>
-            <h2 className='my-4 text-center text-white  display-4'>Results</h2>
+            <h2 className='my-4 text-center text-white  display-4'>RESULTS</h2>
             <Col  className=" pb-5">
 
                 <Form formData={formData} setFormData={setFormData} onCalculate={calculateAll} results={results} />

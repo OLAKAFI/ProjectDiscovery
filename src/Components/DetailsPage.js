@@ -5,11 +5,11 @@ import {Row, Col } from 'react-bootstrap';
 import './details.css';
 import './knowyou.css';
 import {
+  calculatePersonalityNumber,
   calculateLifePath,
+  calculateDestinyNumber,
   determineZodiac,
   getChineseZodiac,
-  calculatePersonalityNumber,
-  calculateDestinyNumber,
   calculateUniversalYear,
   calculatePersonalYear,
   calculateFirstPinnacleCycle,
@@ -39,11 +39,11 @@ function DetailsPage() {
     const { firstName, middleName, lastName, day, month, year } = formData;
 
     // Perform calculations (life path, zodiac, etc.)
+    const PersonalityNumber = calculatePersonalityNumber(day);
     const LifePath = calculateLifePath(day, month, year);
+    const DestinyNumber = calculateDestinyNumber(firstName, middleName, lastName);
     const WesternZodiac = determineZodiac(day, month);
     const ChineseZodiac = getChineseZodiac(year);
-    const PersonalityNumber = calculatePersonalityNumber(day);
-    const DestinyNumber = calculateDestinyNumber(firstName, middleName, lastName);
     const UniversalYear = calculateUniversalYear();
     const PersonalYear = calculatePersonalYear(day, month);
     const FirstPinnacleCycle = calculateFirstPinnacleCycle(day, month);
@@ -52,11 +52,11 @@ function DetailsPage() {
     const FourthPinnacleCycle = calculateFourthPinnacleCycle(month, year);
 
     setResults({
+      PersonalityNumber,
       LifePath,
+      DestinyNumber,
       WesternZodiac,
       ChineseZodiac,
-      PersonalityNumber,
-      DestinyNumber,
       UniversalYear,
       PersonalYear,
       FirstPinnacleCycle,

@@ -7,7 +7,9 @@ const KnowYouData = [
     title: "Life Path",
     image: require('../images/lifepath.png'),
     shortdescription: "Your Life Path is your purpose on earth. It is the path in which you are here to follow and fulfill to live a truly successful life.",
-    description: "Your Life Path is your purpose on earth. It is the path in which you are here to follow and fulfill to live a truly successful life.",
+    description: `Life path represent what purpose we are here on this universe to fulfil. It is the path in which you are here to follow and fulfill to live a truly successful life.  
+                  It is meant to be our main goal and focus as we navigate our life. This means that everything we do while here should resonate 
+                  to our life path.`,
   
     buttonText: "Learn more",
   },

@@ -24,7 +24,16 @@ export function reduceToSingleDigit(number) {
 //     }
 // }
   
+export function calculatePersonalityNumber(day) {
+    let dayString = day.toString().padStart(2, '0');  // Adds leading zero if necessary
+    if (!day ) {
+        return "INVALID DATE INPUT";
+    }
 
+    // Convert to number and reduce to a single digit
+    let dayNumber = Number(dayString);
+    return `${reduceToSingleDigit(dayNumber)}`;
+}
 
 export function calculateLifePath(day, month, year) {
     if (!day || !month || !year) {
@@ -130,16 +139,7 @@ export function getChineseZodiac(year) {
     return `${zodiacAnimals[(year - 1900) % 12]}`;
 }
   
-export function calculatePersonalityNumber(day) {
-    let dayString = day.toString().padStart(2, '0');  // Adds leading zero if necessary
-    if (!day ) {
-        return "INVALID DATE INPUT";
-    }
 
-    // Convert to number and reduce to a single digit
-    let dayNumber = Number(dayString);
-    return `${reduceToSingleDigit(dayNumber)}`;
-}
   
 export function assignNumbersToAlphabet() {
     const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';

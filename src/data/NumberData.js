@@ -4,59 +4,93 @@ const NumberData = [
         {
             title: "personality_number",
             value: {
-            1: `You are a natural-born leader with ambition and determination. People with this personality number are said to have a masculine energy. They tends to have strong sense of self belief. 
-                They have strong sense of setting and achieiving goals. Also, they have high innovative thinking that can lead to pioneering ideas.
+            1: `You are a natural-born leader with ambition and determination. You tend to have strong sense of self belief. 
+                They have strong sense of setting and achieiving goals. Also, you have high innovative thinking that can lead to pioneering ideas.
+                As a child, you might appear to others as been stubborn because you try to take charge of things. The other side of this personality is that you have the tendency of been selfish because you
+                think more about yourself often ignoring others advises and opinion (authoritarian).  Learning the qualities of a good leader whether professionally or through life experience is vital for you.
+                Many opportunities to lead and manage people and business will be presented to you. Infact, you might be singled out for this among your peers. This personality is said to be
+                 characterized with a masculine energy, so there is a probability that if you are a female, there will be some traces of masculinity in your behavior or rather your appearance.
             `,
 
-            2: `You are diplomatic, cooperative, and seek harmony in relationships. People with this personality number are highly sensitive in nature and highly intuitive with great eyes for attention.
-                They can also be a great listner because of their empathetic nature. Because of your innate abilities like being able to understand both sides, you will do well as a councellor especially
-                 a marriage counsellor, diplomats (conflict reesolution), among every other career that give you a chance to be mediate. Healing is also a possible field, because you have the tendency to lift the burdens of others by 
-                 listening to them and profering solutions. However, it also good for you to take care of your own self as you lift the burden of others. In relationship, people with this personality tends
-                 to be more loving, caring, supportive, kind, and romantic.
+            2: `You are diplomatic, cooperative, and seek harmony in relationships. You have highly sensitive nature and highly intuitive with great eyes for attention.
+                Because of your empathetic nature, you tends to be a good listner. Also, being able to understand both sides, you will excell as a Counsellor  especially
+                 a marriage counsellor, diplomat (conflict reesolution), among every other careers that give you a chance to mediate. Healing is also a possible field, because you have the tendency to lift the burdens of others by 
+                 listening to them and profering solutions. However, remember to also take care of your own self as you lift the burden of others. In relationship, you tend
+                 to be more loving, caring, supportive, kind, and romantic. Because of this innate characteristics, you have to learn to manage your emotions. This personality is said associated
+                  with a feminine energy, so there is a probability if you are a male there might still be some traces of feminity in your behavior or your physical characteristics.
             `,
 
-            3: `You are creative, expressive, and enjoy social interactions. Communication is one of the innative ability of people with this personality number. 
-                They are enthustiatic, with great social inclination. This also correlate with their charming and friendly nature. They are the life of the party. 
-                This natives have some form of adaptability and versatile.
+            3: `You are creative, expressive, and enjoy social interactions. Communication and networking is an innate ability for you as you do this effortlessly when compared than others around you.
+                Because of this natural ability, you will have lots of people around you and everyone sees you as a friend. However, you might see them as just aquitances.
+                You are enthustiatic, with great social inclination. This also correlate with your charming and friendly nature. You are the life of the party. 
+                Also, you have some sense of adaptability and versatility. This personality is said to be characterized with a masculine energy, so there is a probability that if you are a
+                 female, there will be some traces of masculinity in your behavior or rather your appearance.
             `,
 
-            4: `You are disciplined, practical, and excel at building solid foundations. People with this personality have strong sense of responsibility that might be seen in them from childhood.
-                They are builders and organizers that provides balance and structure. They are likely to be the balance in their family, this also means that they sacrifice a lot even though that might not be seen or 
-                appreciated everytime. There is a tendency for delay in some areas of life, which might in some cases be education or marraige. They are grounderd and patient with strong work ethics. 
-                Regarding work, this people takes a practical approach to work and are highly deligent. This natives are dependable and trustworthy and as such they value reliability and stability.
+            4: `You are disciplined, practical, and excel at building solid foundations. You have strong sense of responsibility that might be seen in them from childhood.
+                You are builders and organizers that provides balance and structure. Often times, you appear to be the balance in your family no matter their position, you are the one that brings everyoe together
+                and is involved in every matter. This also means that you sacrifice a lot even though that might not be seen or 
+                appreciated everytime. Because of the planet that rule this personality, there is a tendency for delay in some areas of life, which might be education, marraige, etc. Infact, this can 
+                manifest early in their childhood and might hinder some part of your early development.  Because of this, you might appear to be more grounderd and patient with strong work ethics. However
+                if you are not already, might be one of the major lesson you need to learn in life. In fact, rather than been negative with delay, it is advisable to see this time as an opportunity to learn and focus. 
+                More importantly, you need to understand that delay is not denail.
+                Regarding work, you people takes a practical approach to work and you are highly deligent. This natives are dependable and trustworthy and as such they value reliability and stability.
+                This personality is said to be associated with a feminine energy, so there is a probability if you are a male there might still be some traces of feminity in your behavior and/or your
+                 physical characteristics.
             `,
 
-            5: `You thrive on freedom, adaptability, and embracing new opportunities. People with this personality number embrace change easily and are risk takers. They are versatile and adapt well to situation and their environment.
-                Their love for the freedom and independence is something they cherish so much and this adventerous nature might take them away from their home or far away in foreign land. 
-                This people also have high social skills and natural magnets because of their strong communication skills.
+            5: `You are someone that thrive on freedom, adaptability, and embracing new opportunities/changes. If everything is right, you will have something that makes you attractive to others. This might either be physical or intelletual
+                Because of your tendency to easily embrance change, you might find it difficult to stick to something as you change your mind on things so easily. This can in most times appears as been indecisive.
+                Infact, you get so bored easily. Again your love for freedom might mean you find it difficult to stay in one place for too long, because this can lead to depression. 
+                You are versatile and adapt well to situation and your environment. It is possible that you might have a good intuition and you might be able to sense lies easily.
+                Your love for freedom and independence is something you cherish  and this adventerous nature might take you away from your home or far away in foreign land. 
+                Also, you have high social skills and natural magnets because of your strong communication skills. This personality is said to be characterized with a masculine energy, 
+                so there is a probability that if you are a female, there will be some traces of masculinity in your behavior or rather your appearance. Some school of thought also characterize you as someone
+                with high sexual energy.
             `,
 
-            6: `You are nurturing, responsible, and committed to helping others. People with this personality number have strong sense of responsibility. The nature of this people is kindness and generosity.
-                This is evident in their love for home and domestic comfort. Also, they are active in community affairs and service oriented. They also seek strongly for harmony and balance.
-                They are creative and artistic in nature. Career wise, people with this personality number will do well in areas where they are able to nuture, care and serve other people. Some of these might include
-                carer, community work, among others. Asides this, they can also delve into creative and artistic field. 
+            6: `You are nurturing, responsible, and committed to helping others. In fact, you have a strong sense of responsibility whether for your family or the society in general.
+                Your nature  is kindness and generosity. This is evident in your love for home, family, and domestic comfort. Also, you will find out that you are active in community affairs and service oriented.
+                Because of your kind heart and the responsibility attached to this personality, it is vital that you learn to balance between putting yourself first and being responsible for others.
+                 Asides this, amongst others, you tend to be the one that seek strongly for harmony and balance. Although, might be hidden, you have a creative side and this can also mean you love nature and arts.
+                Based on your personalty, you will do well in areas where you are able to nuture, care and serve other people. This include but not limited to
+                carer, community service, social work, hospitality, among others. Asides this, you can also delve into the creative and artistic field. This personality number is said associated with a feminine energy, 
+                so there is a probability if you are a male there might still be some traces of feminity in your behavior and/or your physical appearances.
             `,
 
-            7: `You are introspective, analytical, and seek deeper spiritual meaning. People with this personality number are deep thinkers and highly sensive. This is also spiritual personality that calls for 
-                quite reflection and solitude. Because of this characteristics, this people might appear to as introverts and mostly keep to themselves.  This natives tends to have high curiosity and mystical 
-                inclination and this make them seek for deeper truth. Because of the tendency to keeping to oneself and curiousity, people with this personality tends to be addicted to things easily and seldomly 
-                have secret addictions that might affect them and their spiritual abilities. They have high intuition that can magnify into psychic or dreaming ability (Deejavu) if the vibration is high in this person. 
+            7: `You are introspective, analytical, and seek deeper spiritual meaning. You are a deep thinker and highly sensitive one at that. Also, you have a spiritual personality that calls for 
+                quite reflection and solitude. Because of this, you might appear to be an introvert, mostly keeping to yourself. Others might sense this as been rude and 
+                in some instances your higher knowlegde might come accross as been smarter than others around you.  Again, you tends to have high curiosity and mystical 
+                inclination and this make you seek for deeper truth. On the other hand, because of the tendency to keeping to yourself and your high curiousity, you tend to be addicted to things easily.
+                This means there is probability that you have one or more secret addictions that might affect you and your spiritual side. You have high intuition that can magnify into psychic or dreaming ability (Deejavu) if the vibration is high in this person.
+                This personality is said to be characterized with a masculine energy, so there is a probability that if you are a female, there will be some traces of masculinity in your behavior or rather your
+                 appearance.
+                 
             `,
 
-            8: `You are ambitious, resourceful, and skilled at managing power and success. People with this personality number possesses strong leadership quality and have a strong drive for achievement and 
-                accomplishement in their endeavours. Their strong level of persistence and resilence is also one of their main characteristics. They are influential and powerful in nature and they value
-                 integrity. Careerwise, this native will do well in managing business or in positions of power and authority as they have the innate characteristics to handle this well. It can also be noted that
-                 this personality is a kalmic one which means that they get what they give. In other means, it is advised that this native stay away for shady things as it has tendecy to backfire. Also, this kalmic
-                 capacity means that when this people do good for others, they have high tendency of recieving this back from the universe. Frequent alms giving is an advisable act for this nature.
+            8: `You are ambitious, resourceful, and skilled at managing power and success. You possesses strong leadership quality and have a strong drive for achievement and 
+                accomplishement in your endeavours. One of your core characteristics is your strong level of persistence and resilence. You can come accross as been influential and powerful 
+                and your  value for integrity is unwavering. 
+                Careerwise, you will excel in business management whether it is your own or not. Another area that you will do great is in positions of power and authority, as you have the innate
+                 characteristics to handle this well. It can also be noted that
+                 this personality is kalmic. This does not neccessary mean a bad thing, in simple terms it implies that you get what you give. In other words, it is advised that you stay away for shady/bad
+                  things as there is high probability that this might come back to hunt you. This does not mean that when others does bad things, they will not reap it. However, in your case the frequency is
+                  more higher and the probability is more likely.  Luckily, this kalmic effect also means that when you are straightforward and you do good for others, you have high tendency of recieving this
+                   back from the universe in folds. Frequent alms giving is an advisable act for you.
+                 This personality is ssociated with a feminine energy, so there is a probability if you are a male there might still be some traces of feminity in your behavior and/or your
+                 physical characteristics.
             `,
 
             9: `You are someone with a deep well of compassion and generosity, driven by a heartfelt desire to make the world a better place. You have a natural ability to care for others, and your
-                 selflessness shines through in everything you do. Your strong spiritual insight sets you apart, and there is a sense that the universe truly favors you, gifting you with the ability
+                 selflessness shines through in everything you do. Also, you have a strong spiritual insight that sets you apart, and there is a sense that the universe truly favors you, gifting you with the ability
                   to touch lives in meaningful ways. You are service-oriented and always seeking deeper knowledge, often exploring the mysteries of life to find answers that can help you grow and give
-                   back to others. Your leadership qualities are undeniable—you are a visionary thinker who sees the bigger picture and embraces diversity with open arms. Your curiosity and adventurous
-                    spirit help you connect with people from all backgrounds, making you someone who is truly in tune with the world around you. Creativity and artistry are part of who you are, and 
-                    these gifts allow you to express yourself in unique and beautiful ways. You are not just any personality—you embody what is often called a "master personality.  
-                    You have an extraordinary ability to adapt and read people with ease, which is both a strength and a responsibility. Because you are so sensitive to your environment, 
+                   back to others. Your leadership qualities are undeniable, you are a visionary thinker who sees the bigger picture, embracing diversity with open arms. Although, you prefer to lead from behind in most cases
+                   and will rather not the front runner. Sometimes, you might appear superficial. Your curiosity and adventurous
+                    spirit help you connect with people from all backgrounds, making you someone who is truly in tune with the world around you. This personality number is said to be characterized with
+                     a masculine energy, so there is a probability that if you are a female, there will be some traces of masculinity in your behavior or rather your appearance.Creativity and artistry are part of who you are, and 
+                    these gifts allow you to express yourself in unique and beautiful ways. 
+                    You are not just any personality, you embody what is often called a "master personality".  
+                    You have an extraordinary ability to adapt and read people/environment with ease, which is both a strength and a responsibility. Because you are so sensitive to your environment, 
                     it is essential to surround yourself with positive, uplifting energy. Toxic environments and negative influences can weigh heavily on you, as you tend to absorb and mirror the
                      energies of those around you. By choosing supportive, nurturing surroundings, you allow yourself to truly thrive, becoming the best version of yourself and making an even greater
                       impact on the world. 
@@ -67,11 +101,11 @@ const NumberData = [
         {
           title: "life_path",
           value: {
-            1: `Life path represent what purpose we are here on this universe to fulfil. It is meant to be our main goal and focus as we navigate our life. This means that everything we do while here should resonate 
-                to our life path. People with this life path are natural leaders and mostly have clear vision with a strong desire to succeed in life. One of your goal in life is to lead and many opportunities to achieve this will be prenseted to you in life. While some of these charcateristics
+            1: ` Your purpose include leading with clear vision and a strong desire to succeed in life. One of your goal in life is to lead and many opportunities to achieve this will be prenseted to you in life. While some of these charcateristics
                 might be innate, you might have to learn and develop more leadership and management skills through a transformation processs. However, you will notice that you are always singled out for position of leadership and you will thrive well in every 
-                environment that give you a platform to be in control. The downside to this life path might be that because of the strong desire for independence, you might always appear overly self-focused or impatient whille
-                overlookig the needs or feelings of others. Also, because of your high ambition spirit, you may be consumed by your own goals and ambitions. Regarding career or proffessions, you will thrivr in any environment
+                environment that give you a platform to be in control. As a kid or young adult, you might be percieved as been stubborn because you might find yourself challenging authorities but as you
+                grow up and learn you will be able to look back and connect the dots. The downside to this life path might be that because of the strong desire for independence, you might always appear overly self-focused or impatient while
+                overlookig the needs or feelings of others. Also, because of your high ambitious spirit, you may be consumed by your own goals and ambitions. Regarding career or proffessions, you will thrive in any environment
                 that gives you the opportunity to lead or manage people and resources whether as an enterpreneur, manager, politician, mentor/coach, among other careers in this line.
 
                 
@@ -100,9 +134,9 @@ const NumberData = [
 
             `,
 
-            '11/2': `carry an incredibly unique combination of qualities that sets you apart from others. You are someone with both the vision and the ability to lead, but also the deep empathy and
+            '11/2': `You carry an incredibly unique combination of qualities that sets you apart from others. You are someone with both the vision and the ability to lead, but also the deep empathy and
                      sensitivity that allow you to connect with others on a profound level. At your core, you are a natural-born leader, but not just in the typical sense. You are driven by something
-                      greater than personal ambition—you feel a higher calling. Your ability to see the big picture and inspire those around you is something others are drawn to. Whether you are aware
+                      greater than personal ambition, beacuse you feel a higher calling. Your ability to see the big picture and inspire those around you is something others are drawn to. Whether you are aware
                        of it or not, you often find yourself in leadership roles, where your ability to guide and motivate people can make a real difference. While you thrive in leadership roles, your
                         true strength lies in balancing your visionary drive with your ability to connect and support others emotionally. Whether in career or relationships, you excel when you can 
                         combine your leadership skills with emotional intelligence, creating harmony and resolving conflicts. However, it is crucial to set boundaries and care for yourself, as your 
@@ -114,17 +148,15 @@ const NumberData = [
                      
             `,
 
-            3: `Life path represent what purpose we are here on this universe to fulfil. It is meant to be our main goal and focus as we navigate our life. This means that everything we do while here should resonate 
-                to our life path.
-
-                Your journey is centered on creativity, expression, and connection. You are naturally gifted with strong communication skills, allowing you to express yourself
+            3: `Your journey is centered on creativity, expression, and connection. You are naturally gifted with strong communication skills, allowing you to express yourself
                 in ways that inspire, entertain, and uplift others. Your charm, enthusiasm, and friendly nature make you a magnet for social interactions, often positioning you as the life of the party.
                 Your innate adaptability and versatility allow you to thrive in various situations, making you highly relatable and approachable.
 
                 In your professional life, your creativity and expressive abilities are your greatest assets. Careers in the arts, media, writing, public speaking, or entertainment suit your vibrant 
                 personality. Your charm and enthusiasm make you a great storyteller, capable of captivating audiences and conveying ideas with flair. Similarly, roles that involve teaching, marketing,
                 or event planning allow you to combine your social skills with your creative talents. You may also excel in collaborative environments where your adaptable and team-oriented approach 
-                adds value.
+                adds value. Overall, your life purpose lies in the ability to express, communicate and networking. Because you are someone that knows almost everybody, opportunities or careers that involves 
+                connecting people that have and people that need might be ideal.
 
                 In relationships, your warm, friendly, and charismatic nature attracts people to you. You bring joy and positivity to those around you, creating meaningful connections. However, it is 
                 essential to balance your social inclinations with emotional depth, as focusing solely on surface-level interactions may leave you or others feeling unfulfilled.
@@ -141,10 +173,7 @@ const NumberData = [
                      
             `,
 
-            4: `Life path represent what purpose we are here on this universe to fulfil. It is meant to be our main goal and focus as we navigate our life. This means that everything we do while here 
-                should resonate to our life path. 
-                
-                If your Life Path number is 4, your purpose is rooted in building a solid, stable foundation—not just for yourself, but for those around you. You are practical, disciplined, and have a 
+            4: `Your purpose is rooted in building a solid, stable foundation—not just for yourself, but for those around you. You are practical, disciplined, and have a 
                 natural gift for creating order out of chaos. From a young age, people likely saw you as responsible and dependable, and you may have found yourself taking on roles that bring balance 
                 and structure to your family or environment. Even though your efforts are not always noticed or appreciated, your contributions are invaluable.
 
@@ -166,8 +195,8 @@ const NumberData = [
 
             `,
 
-            '22/4': `You possess a rare and powerful combination of leadership, vision, and practicality. Vibrating on a higher frequency of Life Path 2, you embody the 
-                    harmonious, diplomatic qualities of a peacemaker, while also embracing the grounded, disciplined nature of Life Path 4. Your purpose is not only to build a solid foundation for
+            '22/4': `You possess a rare and powerful combination of leadership, vision, and practicality. Vibrating on a higher frequency of 2, you embody the 
+                    harmonious, diplomatic qualities of a peacemaker, while also embracing a grounded and disciplined nature. Your purpose is not only to build a solid foundation for
                      yourself but also to create lasting stability and growth for others through your leadership and service. Your deep sensitivity and emotional understanding allow you to connect
                       with others on a profound level, making you an excellent mediator and collaborator. However, you also carry the responsibility of turning your visionary goals into concrete,
                        practical outcomes. Your natural ability to see the bigger picture and your strong work ethic equip you to create lasting change in both your personal and professional life.
@@ -187,10 +216,7 @@ const NumberData = [
                      compassionate nature with practical action and self-care, you will leave a meaningful and lasting impact on the world.
             `,
                 
-            5: `Life path represent what purpose we are here on this universe to fulfil. It is meant to be our main goal and focus as we navigate our life. This means that everything we do while here should resonate 
-                to our life path. 
-                
-                Your journey is all about freedom, adaptability, and the excitement of new experiences. You thrive in dynamic environments and naturally embrace change with
+            5: `Your journey is all about freedom, adaptability, and the excitement of new experiences. You thrive in dynamic environments and naturally embrace change with
                 open arms. Routine and stagnation do not sit well with you—instead, you are energized by the unknown and motivated by the endless possibilities life has to offer.
 
                 Your adventurous spirit often draws you to explore the world, whether that means physical travel, diving into new ideas, or pursuing unconventional paths. It is not uncommon for people with
@@ -215,10 +241,7 @@ const NumberData = [
 
             `,
 
-            6: `Life path represent what purpose we are here on this universe to fulfil. It is meant to be our main goal and focus as we navigate our life. This means that everything we do while here should resonate 
-                to our life path.
-                
-                Your life’s purpose revolves around nurturing, responsibility, and creating harmony. You are naturally drawn to helping others, and your kindness, generosity, and sense of duty shape your
+            6: `Your life’s purpose revolves around nurturing, responsibility, and creating harmony. You are naturally drawn to helping others, and your kindness, generosity, and sense of duty shape your
                 interactions with the world. Whether it is within your home, community, or workplace, you feel a deep commitment to improving the lives of those around you.
 
                 Your compassionate nature makes you a source of comfort and support to others. You have a special gift for creating a sense of warmth and security, often taking on the role of the 
@@ -244,8 +267,8 @@ const NumberData = [
                 
             `,
 
-            '33/6': `You embody a rare and powerful combination of creativity, nurturing, and responsibility. Vibrating on a higher frequency of Life Path 3, you radiate
-                     positivity, charm, and an innate ability to inspire others through your creativity and expression. At the same time, the qualities of Life Path 6 ground you in a deep sense of duty,
+            '33/6': `You embody a rare and powerful combination of creativity, nurturing, and responsibility. Vibrating on a higher frequency of 3, you radiate
+                     positivity, charm, and an innate ability to inspire others through your creativity and expression. At the same time, you are also grounded by a deep sense of duty,
                       care, and the drive to create harmony within your surroundings. Your life’s purpose revolves around using your creativity and nurturing abilities to uplift and support others,
                        while also ensuring that your contributions are meaningful and lasting. You are naturally drawn to helping others, whether it is through your personal relationships, community
                         involvement, or professional endeavors. Your sense of duty and compassion is enhanced by your creative talents, allowing you to offer both emotional and artistic support to
@@ -270,10 +293,7 @@ const NumberData = [
                         you a powerful force for good.
             `,
 
-            7: `Life path represent what purpose we are here on this universe to fulfil. It is meant to be our main goal and focus as we navigate our life. This means that everything we do while here should resonate 
-                to our life path.
-                
-                Your journey in life is guided by introspection, analysis, and a quest for deeper spiritual understanding. You are a seeker of truth, driven by an innate curiosity and a desire to uncover
+            7: `Your journey in life is guided by introspection, analysis, and a quest for deeper spiritual understanding. You are a seeker of truth, driven by an innate curiosity and a desire to uncover
                 life’s mysteries. This path invites you to explore both the outer world and your inner self, finding meaning and purpose through reflection, solitude, and spiritual growth.
 
                 You are a deep thinker with a sharp, analytical mind. You are drawn to uncovering hidden truths and understanding the bigger picture of life. This intellectual curiosity often leads you
@@ -301,10 +321,7 @@ const NumberData = [
 
             `,
 
-            8: `Life path represent what purpose we are here on this universe to fulfil. It is meant to be our main goal and focus as we navigate our life. This means that everything we do while here 
-                should resonate to our life path.
-
-                You are destined to master the realms of power, success, and material achievement. Ambitious, resourceful, and driven, your path in life revolves around
+            8: `You are destined to master the realms of power, success, and material achievement. Ambitious, resourceful, and driven, your path in life revolves around
                  building and managing success in a way that benefits not only yourself but also the world around you. You are here to take charge, lead, and create a lasting legacy.
 
                 Your natural leadership qualities and unwavering persistence make you a force to be reckoned with. When you set a goal, you approach it with unmatched determination and resilience,
@@ -333,8 +350,7 @@ const NumberData = [
                 
             `,
 
-            9: `Life path represent what purpose we are here on this universe to fulfil. It is meant to be our main goal and focus as we navigate our life. This means that everything we do while here should resonate 
-                to our life path. Your purpose lies in compassion, service, and uplifting humanity. You are a natural healer and visionary, driven to create a better world through your wisdom and empathy.
+            9: `Your purpose lies in compassion, service, and uplifting humanity. You are a natural healer and visionary, driven to create a better world through your wisdom and empathy.
                  Your path calls you to embrace selflessness and spiritual growth, leaving behind a legacy of love and transformation. Your broad perspective and deep emotional understanding make you a 
                  guiding light for others. You connect with people on a profound level, inspiring them with your vision and advocating for justice and equality. Artistic and creative at heart, you are 
                  often drawn to careers that allow you to express your ideals or contribute meaningfully to the well-being of others, such as philanthropy, teaching, or the arts.
@@ -945,7 +961,7 @@ const NumberData = [
                 `,
 
                 9: `This pinnacle emphasizes compassion, service, and letting go of what no longer serves you. You may feel drawn to contribute to a cause or focus on leaving a meaningful legacy. 
-                    Midlife reflections on the impact you’ve had on others may take center stage. Challenges could include emotional release or navigating transitions. To thrive, embrace the opportunity
+                    Midlife reflections on the impact you have had on others may take center stage. Challenges could include emotional release or navigating transitions. To thrive, embrace the opportunity
                      to give back and align your actions with a broader purpose. Use this time to focus on personal transformation and the positive changes you can create in the world.
                 `
             },

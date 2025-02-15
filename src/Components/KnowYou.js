@@ -30,9 +30,7 @@ const KnowYou = ({ id }) => {
         <Row className="align-items-center " > 
             <Col xs={12} md={4} className=" image-container">
                     <img src={content.image} alt={content.title} className="  img-fluid "/>
-                    
-                      
-                    
+  
             </Col>
             <Col xs={12} md={8} className="content">
                 <div className="">

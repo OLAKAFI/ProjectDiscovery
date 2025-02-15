@@ -11,11 +11,6 @@ function Register({isSignedIn}) {
     <div id='wrapper'>
         <section id='intro' className='introduction-container'>
             <div className="">
-                {/* {!isSignedIn ? (
-                <SignInSignUpPage  />
-                ) : (
-                <Introduction />
-                )} */}
                 <SignInSignUpPage  />
             </div>
 
