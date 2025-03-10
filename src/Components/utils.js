@@ -24,6 +24,7 @@ export function reduceToSingleDigit(number) {
 //     }
 // }
   
+// Calculate Personality Number
 export function calculatePersonalityNumber(day) {
     let dayString = day.toString().padStart(2, '0');  // Adds leading zero if necessary
     if (!day ) {
@@ -35,6 +36,7 @@ export function calculatePersonalityNumber(day) {
     return `${reduceToSingleDigit(dayNumber)}`;
 }
 
+// Calculate Life Path Number
 export function calculateLifePath(day, month, year) {
     if (!day || !month || !year) {
         return "INVALID DATE INPUT";
@@ -59,7 +61,22 @@ export function calculateLifePath(day, month, year) {
     return `${reduceToSingleDigit(lifePath)}`;
 }
 
+// Function to calculate Pinnacle Age Ranges
+export function calculatePinnacleAges(lifePath) {
+    const firstPinnacleEnd = 36 - lifePath;
+    const secondPinnacleEnd = firstPinnacleEnd + 9;
+    const thirdPinnacleEnd = secondPinnacleEnd + 9;
+  
+    return {
+      firstPinnacleAge: `0 - ${firstPinnacleEnd} years`,
+      secondPinnacleAge: `${firstPinnacleEnd + 1} - ${secondPinnacleEnd} years`,
+      thirdPinnacleAge: `${secondPinnacleEnd + 1} - ${thirdPinnacleEnd} years`,
+      fourthPinnacleAge: `${thirdPinnacleEnd + 1} - death`
+    };
+}
 
+
+// Determine the Zodiac sign
 export function determineZodiac(day, month) {
 
   console.log(`Input received - Day: ${day}, Month: ${month}`); // Debugging input
@@ -120,7 +137,8 @@ export function determineZodiac(day, month) {
     
 }
 
-  
+
+// Determine Chinese Zodiac
 export function getChineseZodiac(year) {
     const zodiacAnimals = [
       'Rat',
@@ -140,7 +158,7 @@ export function getChineseZodiac(year) {
 }
   
 
-  
+// Assign numbers to alphabets
 export function assignNumbersToAlphabet() {
     const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const assignments = {};
@@ -149,7 +167,8 @@ export function assignNumbersToAlphabet() {
     }
     return assignments;
 }
-  
+
+// Calcualte Expression/Destiny Number
 export function calculateDestinyNumber(firstName, middleName, lastName) {
     const fullName = (firstName + middleName + lastName).toUpperCase();
     const assignments = assignNumbersToAlphabet();
@@ -159,7 +178,9 @@ export function calculateDestinyNumber(firstName, middleName, lastName) {
     }
     return `${reduceToSingleDigit(totalSum)}`;
 }
-  
+
+
+// Calculate Universal Year Vibration
 export function calculateUniversalYear() {
     const currentYear = new Date().getFullYear();
     return `${reduceToSingleDigit(
@@ -168,6 +189,7 @@ export function calculateUniversalYear() {
 }
   
 
+// Calculate Persoanl Year Vibration
 export function calculatePersonalYear(day, month) {
     if (!day || !month) {
         return "INVALID DATE INPUT";
@@ -184,6 +206,7 @@ export function calculatePersonalYear(day, month) {
     return `${personalYear}`;
 }
 
+// Calculate First Pinnacle Cycle Vibration
 export function calculateFirstPinnacleCycle(day, month) {
     if (!day || !month) {
         return "INVALID DATE INPUT";
@@ -196,6 +219,7 @@ export function calculateFirstPinnacleCycle(day, month) {
         return `${reduceToSingleDigit(firstPinnacleCycle)}`;
 }
 
+// Calculate Second Pinnacle Cycle Vibration
 export function calculateSecondPinnacleCycle(day, year) {
     if (!day || !year) {
         return "INVALID DATE INPUT";
@@ -207,6 +231,7 @@ export function calculateSecondPinnacleCycle(day, year) {
         return `${reduceToSingleDigit(secondPinnacleCycle)}`;
 }
 
+// Calculate Third Pinnacle Cycle Vibration
 export function calculateThirdPinnacleCycle(day, month, year) {
     // Calculate the first pinnacle cycle
     let firstPinnacleCycle = calculateFirstPinnacleCycle(day, month);
@@ -232,6 +257,7 @@ export function calculateThirdPinnacleCycle(day, month, year) {
 }
 
 
+// Calculate Fourth Pinnacle Cycle Vibration
 export function calculateFourthPinnacleCycle(month, year) {
     if (!month || !year) {
         return "INVALID DATE INPUT";

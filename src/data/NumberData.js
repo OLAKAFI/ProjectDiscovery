@@ -5,36 +5,38 @@ const NumberData = [
             title: "personality_number",
             value: {
             1: `You are a natural-born leader with ambition and determination. You tend to have strong sense of self belief. 
-                They have strong sense of setting and achieiving goals. Also, you have high innovative thinking that can lead to pioneering ideas.
+                You have strong sense of setting and achieiving goals. Also, you might possess a high innovative thinking that can lead to pioneering ideas.
                 As a child, you might appear to others as been stubborn because you try to take charge of things. The other side of this personality is that you have the tendency of been selfish because you
-                think more about yourself often ignoring others advises and opinion (authoritarian).  Learning the qualities of a good leader whether professionally or through life experience is vital for you.
-                Many opportunities to lead and manage people and business will be presented to you. Infact, you might be singled out for this among your peers. This personality is said to be
-                 characterized with a masculine energy, so there is a probability that if you are a female, there will be some traces of masculinity in your behavior or rather your appearance.
+                think more about yourself, often ignoring others advises and opinion.  Learning the qualities of a good leader whether professionally or through life experiences is vital to navigate this personality.
+                Many opportunities to lead/manage people and businesses will be presented to you. While working for others as employee might help you to garner the skills, its important to think about starting something for yourself.
+                This is because this vibration might make people see you as been bossy as an employee. Infact, you might be singled out for this among your peers. This personality is said to be
+                 characterized with a masculine energy, so there is a probability that if you are a female, there will be some traces of masculinity which will be evident whether in your behavior or your appearance.
             `,
 
             2: `You are diplomatic, cooperative, and seek harmony in relationships. You have highly sensitive nature and highly intuitive with great eyes for attention.
-                Because of your empathetic nature, you tends to be a good listner. Also, being able to understand both sides, you will excell as a Counsellor  especially
+                You are empathetic. and because of this nature, you might appear to be a good listner. Also, you are someone that is able to understand both sides of things, you will excel as a counsellor  especially
                  a marriage counsellor, diplomat (conflict reesolution), among every other careers that give you a chance to mediate. Healing is also a possible field, because you have the tendency to lift the burdens of others by 
                  listening to them and profering solutions. However, remember to also take care of your own self as you lift the burden of others. In relationship, you tend
                  to be more loving, caring, supportive, kind, and romantic. Because of this innate characteristics, you have to learn to manage your emotions. This personality is said associated
-                  with a feminine energy, so there is a probability if you are a male there might still be some traces of feminity in your behavior or your physical characteristics.
+                  with a feminine energy, so there is a probability if you are a male there might still be some traces of feminity in your behavior or your physical characteristics. You might find that you
+                  love cooking and you are more homely.
             `,
 
-            3: `You are creative, expressive, and enjoy social interactions. Communication and networking is an innate ability for you as you do this effortlessly when compared than others around you.
+            3: `You are creative, expressive, and enjoy social interactions. Communication and networking is an innate ability for you, and you will find out that you do this effortlessly when compared to others around you.
                 Because of this natural ability, you will have lots of people around you and everyone sees you as a friend. However, you might see them as just aquitances.
                 You are enthustiatic, with great social inclination. This also correlate with your charming and friendly nature. You are the life of the party. 
                 Also, you have some sense of adaptability and versatility. This personality is said to be characterized with a masculine energy, so there is a probability that if you are a
                  female, there will be some traces of masculinity in your behavior or rather your appearance.
             `,
 
-            4: `You are disciplined, practical, and excel at building solid foundations. You have strong sense of responsibility that might be seen in them from childhood.
-                You are builders and organizers that provides balance and structure. Often times, you appear to be the balance in your family no matter their position, you are the one that brings everyoe together
+            4: `You are disciplined, practical, and excel at building solid foundations. You have strong sense of responsibility that might be seen in you from childhood.
+                You are both a builders and an organizers that provides balance and structure. Often times, you appear to be the balance in your family no matter your position in the family, you are the one that brings everyoe together
                 and is involved in every matter. This also means that you sacrifice a lot even though that might not be seen or 
-                appreciated everytime. Because of the planet that rule this personality, there is a tendency for delay in some areas of life, which might be education, marraige, etc. Infact, this can 
-                manifest early in their childhood and might hinder some part of your early development.  Because of this, you might appear to be more grounderd and patient with strong work ethics. However
-                if you are not already, might be one of the major lesson you need to learn in life. In fact, rather than been negative with delay, it is advisable to see this time as an opportunity to learn and focus. 
+                appreciated everytime. Because of the planet that rule this personality, there is a tendency for delay in some areas of life, which might be education, marraige, communication etc. Infact, this can 
+                manifest early in their childhood and might hinder some part of your early development.  As a result, you might appear to be more grounderd and patient with strong work ethics than your peers. However
+                if you are not already found out, you will discover that this is a major lesson you need to learn in life. In fact, rather than been negative with delay, it is advisable to see this time as an opportunity to learn and focus. 
                 More importantly, you need to understand that delay is not denail.
-                Regarding work, you people takes a practical approach to work and you are highly deligent. This natives are dependable and trustworthy and as such they value reliability and stability.
+                Regarding work, you take a practical approach to work and you are highly deligent. You are dependable and trustworthy and at the same you value reliability and stability.
                 This personality is said to be associated with a feminine energy, so there is a probability if you are a male there might still be some traces of feminity in your behavior and/or your
                  physical characteristics.
             `,
@@ -43,8 +45,8 @@ const NumberData = [
                 Because of your tendency to easily embrance change, you might find it difficult to stick to something as you change your mind on things so easily. This can in most times appears as been indecisive.
                 Infact, you get so bored easily. Again your love for freedom might mean you find it difficult to stay in one place for too long, because this can lead to depression. 
                 You are versatile and adapt well to situation and your environment. It is possible that you might have a good intuition and you might be able to sense lies easily.
-                Your love for freedom and independence is something you cherish  and this adventerous nature might take you away from your home or far away in foreign land. 
-                Also, you have high social skills and natural magnets because of your strong communication skills. This personality is said to be characterized with a masculine energy, 
+                Your love for freedom and independence is something you cherish and this adventerous nature might take you away from your home or far away in foreign land. 
+                Also, you have high social skills (natural magnets), because of your strong communication skills. This personality is said to be characterized with a masculine energy, 
                 so there is a probability that if you are a female, there will be some traces of masculinity in your behavior or rather your appearance. Some school of thought also characterize you as someone
                 with high sexual energy.
             `,
@@ -52,7 +54,7 @@ const NumberData = [
             6: `You are nurturing, responsible, and committed to helping others. In fact, you have a strong sense of responsibility whether for your family or the society in general.
                 Your nature  is kindness and generosity. This is evident in your love for home, family, and domestic comfort. Also, you will find out that you are active in community affairs and service oriented.
                 Because of your kind heart and the responsibility attached to this personality, it is vital that you learn to balance between putting yourself first and being responsible for others.
-                 Asides this, amongst others, you tend to be the one that seek strongly for harmony and balance. Although, might be hidden, you have a creative side and this can also mean you love nature and arts.
+                 Asides this, amongst others you tend to be the one that seek strongly for harmony and balance in any situation. Although, it might be hidden, you have a creative/artistic side and this can also mean you love nature and arts.
                 Based on your personalty, you will do well in areas where you are able to nuture, care and serve other people. This include but not limited to
                 carer, community service, social work, hospitality, among others. Asides this, you can also delve into the creative and artistic field. This personality number is said associated with a feminine energy, 
                 so there is a probability if you are a male there might still be some traces of feminity in your behavior and/or your physical appearances.
@@ -60,7 +62,7 @@ const NumberData = [
 
             7: `You are introspective, analytical, and seek deeper spiritual meaning. You are a deep thinker and highly sensitive one at that. Also, you have a spiritual personality that calls for 
                 quite reflection and solitude. Because of this, you might appear to be an introvert, mostly keeping to yourself. Others might sense this as been rude and 
-                in some instances your higher knowlegde might come accross as been smarter than others around you.  Again, you tends to have high curiosity and mystical 
+                in some instances, your higher knowlegde might come accross as been smarter than others around you.  Again, you tends to have high curiosity and mystical 
                 inclination and this make you seek for deeper truth. On the other hand, because of the tendency to keeping to yourself and your high curiousity, you tend to be addicted to things easily.
                 This means there is probability that you have one or more secret addictions that might affect you and your spiritual side. You have high intuition that can magnify into psychic or dreaming ability (Deejavu) if the vibration is high in this person.
                 This personality is said to be characterized with a masculine energy, so there is a probability that if you are a female, there will be some traces of masculinity in your behavior or rather your
@@ -71,12 +73,12 @@ const NumberData = [
             8: `You are ambitious, resourceful, and skilled at managing power and success. You possesses strong leadership quality and have a strong drive for achievement and 
                 accomplishement in your endeavours. One of your core characteristics is your strong level of persistence and resilence. You can come accross as been influential and powerful 
                 and your  value for integrity is unwavering. 
-                Careerwise, you will excel in business management whether it is your own or not. Another area that you will do great is in positions of power and authority, as you have the innate
+                Careerwise, you will excel in business management whether it is your own or not. Because of your love for power,you will do well in areas that demands of power and authority, as you have the innate
                  characteristics to handle this well. It can also be noted that
                  this personality is kalmic. This does not neccessary mean a bad thing, in simple terms it implies that you get what you give. In other words, it is advised that you stay away for shady/bad
                   things as there is high probability that this might come back to hunt you. This does not mean that when others does bad things, they will not reap it. However, in your case the frequency is
                   more higher and the probability is more likely.  Luckily, this kalmic effect also means that when you are straightforward and you do good for others, you have high tendency of recieving this
-                   back from the universe in folds. Frequent alms giving is an advisable act for you.
+                   back from the universe in multiple folds. Frequent alms giving is an advisable act for you.
                  This personality is ssociated with a feminine energy, so there is a probability if you are a male there might still be some traces of feminity in your behavior and/or your
                  physical characteristics.
             `,
@@ -103,7 +105,7 @@ const NumberData = [
           value: {
             1: ` Your purpose include leading with clear vision and a strong desire to succeed in life. One of your goal in life is to lead and many opportunities to achieve this will be prenseted to you in life. While some of these charcateristics
                 might be innate, you might have to learn and develop more leadership and management skills through a transformation processs. However, you will notice that you are always singled out for position of leadership and you will thrive well in every 
-                environment that give you a platform to be in control. As a kid or young adult, you might be percieved as been stubborn because you might find yourself challenging authorities but as you
+                environment that give you a platform to be in control. As a kid or young adult, you might be percieved as been stubborn because you wil find yourself challenging authorities but as you
                 grow up and learn you will be able to look back and connect the dots. The downside to this life path might be that because of the strong desire for independence, you might always appear overly self-focused or impatient while
                 overlookig the needs or feelings of others. Also, because of your high ambitious spirit, you may be consumed by your own goals and ambitions. Regarding career or proffessions, you will thrive in any environment
                 that gives you the opportunity to lead or manage people and resources whether as an enterpreneur, manager, politician, mentor/coach, among other careers in this line.
@@ -115,8 +117,8 @@ const NumberData = [
                 making you a powerful mediator and peacemaker. Your heightened sensitivity and intuition allow you to deeply perceive others’ needs, enabling you to offer empathy and support effortlessly.
                 These strengths position you as a bridge-builder in both personal and professional environments.
                 
-                In your career, roles that involve emotional intelligence, collaboration, and conflict resolution align well with your path. You excel as a counselor or therapist, particularly in areas 
-                like marriage and relationship counseling, where your listening skills and balanced perspective shine. Careers in diplomacy, mediation, or human resource management are also ideal, as 
+                In your career, roles that involve emotional intelligence, collaboration, and conflict resolution align well with your path. You will excel as a counselor or therapist, particularly in areas 
+                like marriage and relationship counseling, where your listening skills and balanced perspective is in high demand. Careers in diplomacy, mediation, or human resource management are also ideal, as 
                 they allow you to create harmony on a larger scale. Additionally, your natural talent for healing makes fields such as therapy, alternative medicine, or emotional support highly fulfilling. Creative roles that require teamwork, like event planning or community projects, can also bring out your collaborative spirit.
 
                 In relationships, your supportive, nurturing, and romantic nature helps you create deep, meaningful bonds. While your ability to prioritize others’ happiness is a strength, it is essential
@@ -155,8 +157,8 @@ const NumberData = [
                 In your professional life, your creativity and expressive abilities are your greatest assets. Careers in the arts, media, writing, public speaking, or entertainment suit your vibrant 
                 personality. Your charm and enthusiasm make you a great storyteller, capable of captivating audiences and conveying ideas with flair. Similarly, roles that involve teaching, marketing,
                 or event planning allow you to combine your social skills with your creative talents. You may also excel in collaborative environments where your adaptable and team-oriented approach 
-                adds value. Overall, your life purpose lies in the ability to express, communicate and networking. Because you are someone that knows almost everybody, opportunities or careers that involves 
-                connecting people that have and people that need might be ideal.
+                adds value. Overall, your life purpose lies in the ability to express, communicate and network. Because you are someone that knows almost everybody, opportunities or careers that involves 
+                connecting people that have something/services and people that need something/services might be ideal.
 
                 In relationships, your warm, friendly, and charismatic nature attracts people to you. You bring joy and positivity to those around you, creating meaningful connections. However, it is 
                 essential to balance your social inclinations with emotional depth, as focusing solely on surface-level interactions may leave you or others feeling unfulfilled.
@@ -195,7 +197,7 @@ const NumberData = [
 
             `,
 
-            '22/4': `You possess a rare and powerful combination of leadership, vision, and practicality. Vibrating on a higher frequency of 2, you embody the 
+            '22/4': `You possess a rare and powerful combination of leadership, vision, and practicality. Vibrating on a higher frequency of two, you embody the 
                     harmonious, diplomatic qualities of a peacemaker, while also embracing a grounded and disciplined nature. Your purpose is not only to build a solid foundation for
                      yourself but also to create lasting stability and growth for others through your leadership and service. Your deep sensitivity and emotional understanding allow you to connect
                       with others on a profound level, making you an excellent mediator and collaborator. However, you also carry the responsibility of turning your visionary goals into concrete,
@@ -249,7 +251,7 @@ const NumberData = [
                 important to you. You feel fulfilled when you are actively contributing to the well-being of others, whether through volunteering, mentoring, or participating in local projects. 
                 You naturally seek harmony and balance, and your presence often helps to restore peace in challenging situations.
 
-                Creativity is another defining aspect of your personality. You have an artistic eye and an innate ability to bring beauty and meaning to whatever you do. This can manifest in areas like
+                Creativity is another defining aspect of your life path. You have an artistic eye and an innate ability to bring beauty and meaning to whatever you do. This can manifest in areas like
                 design, music, writing, or any other creative field. Combined with your nurturing qualities, this makes you versatile, allowing you to flourish in careers that involve both care and
                 creativity.
 
@@ -267,7 +269,7 @@ const NumberData = [
                 
             `,
 
-            '33/6': `You embody a rare and powerful combination of creativity, nurturing, and responsibility. Vibrating on a higher frequency of 3, you radiate
+            '33/6': `You embody a rare and powerful combination of creativity, nurturing, and responsibility. Vibrating on a higher frequency of three, you radiate
                      positivity, charm, and an innate ability to inspire others through your creativity and expression. At the same time, you are also grounded by a deep sense of duty,
                       care, and the drive to create harmony within your surroundings. Your life’s purpose revolves around using your creativity and nurturing abilities to uplift and support others,
                        while also ensuring that your contributions are meaningful and lasting. You are naturally drawn to helping others, whether it is through your personal relationships, community
@@ -330,7 +332,7 @@ const NumberData = [
 
                 Integrity is a cornerstone of your character. You hold yourself to high standards and expect the same from others. This inner moral compass guides your actions and ensures that your
                 success is built on a solid foundation of trust and fairness. However, because of the karmic nature of this life path, it is essential to remain on the right side of ethics and honesty.
-                Your number teaches that what you give is what you receive. Engaging in shady dealings or cutting corners can quickly backfire, while acts of generosity and fairness are rewarded
+                Your life path teaches that what you give is what you receive. Engaging in shady dealings or cutting corners can quickly backfire, while acts of generosity and fairness are rewarded
                 abundantly by the universe.
 
                 Your career is likely to revolve around leadership, management, or entrepreneurship. You thrive in environments where you can take charge and make strategic decisions. 
@@ -380,7 +382,7 @@ const NumberData = [
                   others but showing them the way with humility and authenticity. To express your full potential, surround yourself with like-minded people who encourage your independence. However, 
                   balance your assertiveness with kindness and compassion. Lead with integrity and always focus on building something that is uniquely yours.
             `,
-            2: ` Your expression of self is at its peak when you Are working in harmony with others. Whether it is in personal relationships, teams, or partnerships, your ability to collaborate, mediate,
+            2: ` Your expression of self is at its peak when you are working in harmony with others. Whether it is in personal relationships, teams, or partnerships, your ability to collaborate, mediate,
                  and bring peace is vital to your success. You excel when you nurture others and foster a sense of understanding, but it is essential that you do not lose yourself in the process.
                  Your best expression comes when you support others and find balance in your own life. As a natural empath, you may often take on the emotions of others, so it's important to maintain
                   boundaries and ensure your needs are also met. Speak up and share your feelings clearly, as you often have a deep understanding of others’ perspectives. However, don't suppress your
@@ -440,41 +442,41 @@ const NumberData = [
         {
             title: "universal_year",
             value: {
-              1: `A year of new beginnings, independence, and setting fresh goals. In a universal vibration, the universe focuses on new beginnings, independence, and innovation. 
+              1: `This is a year of new beginnings, independence, and setting fresh goals. In a universal vibration, the universe focuses on new beginnings, independence, and innovation. 
                 This energy supports fresh starts and bold actions. To align with it, embrace opportunities for growth and take initiative. Focus on setting clear goals and trust your instincts to create
                  a strong foundation for the future.
               `,
 
-              2: `A year of patience, partnerships, and cultivating harmony. This universal energy emphasizes harmony, relationships, and cooperation. 
+              2: `This is a year of patience, partnerships, and cultivating harmony. This universal energy emphasizes harmony, relationships, and cooperation. 
                 This is a time for building connections and fostering emotional growth. To navigate this energy, focus on teamwork, diplomacy, and self-care. Patience and intuition will guide you through
                  this reflective and relational year.
               `,
 
-              3: `A year of creativity, joy, and self-expression. This universal year resonate with creativity, joy, and expression. The universe encourages optimism, artistic pursuits, and social 
+              3: `This is a year of creativity, joy, and self-expression. This universal year resonate with creativity, joy, and expression. The universe encourages optimism, artistic pursuits, and social 
                     connections. Engage with your creative side and share ideas. Balance is key to avoid distractions while enjoying this lively and inspiring energy.
               `,
 
-              4: `A year of hard work, discipline, and laying strong foundations. The universal year is about discipline, stability, and hard work. The universe calls for creating lasting
+              4: `This is a year of hard work, discipline, and laying strong foundations. The universal year is about discipline, stability, and hard work. The universe calls for creating lasting
                     foundations and practical solutions. Dedicate yourself to planning and consistency. While challenges may arise, persistence ensures growth and success.
               `,
 
-              5: `A year of change, adventure, and embracing new opportunities. The universal year  brings a universal energy of change, freedom, and adventure. The universe invites you to
+              5: `This is a year of change, adventure, and embracing new opportunities. The universal year  brings a universal energy of change, freedom, and adventure. The universe invites you to
                     embrace flexibility, explore new possibilities, and let go of routines. Adaptability and openness are essential to navigating this transformative year.
               `,
 
-              6: `A year of responsibility, family, and nurturing relationships. In this Universal Year, the universe focuses on responsibility, nurturing, and relationships. 
+              6: `This is a year of responsibility, family, and nurturing relationships. In this Universal Year, the universe focuses on responsibility, nurturing, and relationships. 
                     This is a year to prioritize family, community, and balance. Care for others while ensuring your own well-being, creating harmony in both personal and professional areas.
               `,
 
-              7: `A year of introspection, learning, and spiritual growth. This current uinversal year encourages introspection, spiritual growth, and self-awareness. The universe invites you to 
+              7: `This is a year of introspection, learning, and spiritual growth. This current uinversal year encourages introspection, spiritual growth, and self-awareness. The universe invites you to 
                     reflect deeply, seek knowledge, and connect with your inner self. Embrace solitude and intellectual exploration to grow spiritually and mentally.
               `,
 
-              8: `A year of ambition, achievement, and financial focus. The universal year  highlights power, achievement, and material success. The universe supports leadership, financial growth,
+              8: `This is a year of ambition, achievement, and financial focus. The universal year  highlights power, achievement, and material success. The universe supports leadership, financial growth,
                      and ambitious goals. Align with this energy by focusing on discipline and integrity to achieve tangible results and lasting impact.
               `,
 
-              9: `A year of endings, reflection, and preparing for the next cycle. In this universal year, the universe calls for completion, transformation, and letting go. 
+              9: `This is a year of endings, reflection, and preparing for the next cycle. In this universal year, the universe calls for completion, transformation, and letting go. 
                     This is a time to release what no longer serves you and make space for the next cycle. Embrace closure and reflect on the broader vision for your future.
               `
 
@@ -485,7 +487,7 @@ const NumberData = [
             value: {
                 1: `You are in a fresh chapter of your life, one filled with opportunities for growth and self-discovery. This year calls you to take the lead,
                      embrace independence, and initiate new projects. It's a time for starting over, whether it's a new job, relationship, or personal endeavor. You may feel a surge of energy and 
-                     confidence, but it is important to remember that this is a time for laying foundations, not rushing ahead. The Sun rules this year, encouraging you to shine in your individuality
+                     confidence, but it is important to remember that this is a time for laying foundations, not rushing ahead. For you, the Sun rules this year, encouraging you to shine in your individuality
                       and take charge of your destiny. However, challenges may arise in the form of impatience or fear of failure, so focus on building your confidence step by step. 
                       The key to navigating this year effectively is patience—take bold actions, but avoid making impulsive decisions. Do not be discouraged by setbacks; they are part of your growth. 
                       Trust that this year is about creating the groundwork for lasting success. As you approach the end of this year, focus on strengthening relationships and building a supportive
@@ -496,17 +498,17 @@ const NumberData = [
                 `,
 
                 2: `You are in a phase that emphasizes cooperation, patience, and emotional growth. This is a year to nurture relationships, whether personal or 
-                    professional, and focus on building harmony in your life. The Moon governs this year, bringing a heightened sense of intuition, sensitivity, and emotional depth. While it is a time
-                     to collaborate and work alongside others, you might face challenges like emotional ups and downs or feeling overlooked. The energy of Year 2 encourages you to be more diplomatic
-                      and less reactive, allowing space for others while maintaining your own emotional well-being. The key to navigating this year is trust—trust in your ability to adapt, to listen,
+                    professional, and focus on building harmony in your life. For you, the Moon governs this year, bringing a heightened sense of intuition, sensitivity, and emotional depth. While it is a time
+                     to collaborate and work alongside others, you might face challenges like emotional ups and downs or feeling overlooked. The energy of this year encourages you to be more diplomatic
+                      and less reactive, allowing space for others while maintaining your own emotional well-being. The key to navigating this year is trust in your ability to adapt, to listen,
                        and to wait for the right moment. Your patience will pay off, and relationships will deepen in ways that support your long-term growth. As you transition into the next year, 
                        the focus moves toward creativity, self-expression, and fun. After a year of patience and diplomacy, the coming year encourages you to open up more. In the final quarter, 
                        engage in social and creative activities, reflect on your emotional and relational progress, and release any baggage that may hold you back, embracing the vibrant energy ahead.
                 `,
 
-                3: `This year, creativity takes center stage, and this year invites you to express yourself freely and joyfully. You will find that your communication skills are heightened, making it a
+                3: `For you this year, creativity takes center stage, and this year invites you to express yourself freely and joyfully. You will find that your communication skills are heightened, making it a
                      wonderful time for socializing, networking, and engaging in creative endeavors. The influence of Jupiter brings expansion and optimism, opening doors for growth and new experiences.
-                      However, the challenge of Year 3 is staying focused—while the energy is exciting, it can lead to distractions or scattered efforts. There is a temptation to indulge in pleasures or
+                      However, the challenge of this year for you is staying focused, while the energy is exciting, it can lead to distractions or scattered efforts. There is a temptation to indulge in pleasures or
                        get swept up in excitement, but it is important to remember that true fulfillment comes when you channel your creativity into meaningful projects. This is a time for self-expression,
                         so embrace the artistic and social opportunities that come your way. Balance your enthusiasm with a sense of discipline to ensure you complete what you start. 
                         Remember, this year is about finding joy and bringing your ideas into reality. As the year concludes, focus on grounding your creativity and preparing for the disciplined energy
@@ -529,7 +531,7 @@ const NumberData = [
                     it can also feel unsettling. The challenge of Year 5 is staying grounded amid the constant flux. You may find yourself seeking variety and independence, but there is a risk of 
                     becoming scattered or overwhelmed by too many options. The key to navigating this year is balance—embrace the freedom to explore, but avoid rushing into decisions without careful
                      thought. This year is about finding stability within change. Trust that the experiences you encounter will lead you to a deeper understanding of yourself and the world around you.
-                     As this year ends, you're entering Personal Year 6, which emphasizes responsibility, nurturing, and relationships. While this year brought freedom, next year shifts your focus
+                     As this year ends, you will be entering a personal year which emphasizes responsibility, nurturing, and relationships. While this year brought freedom, next year shifts your focus
                       to family, home, and emotional connections. To prepare, reflect on your experiences and consider how to create more stability and harmony. Prioritize what matters most, let go
                        of what no longer serves you, and embrace a more caring, grounded phase ahead.
                 `,
@@ -538,15 +540,15 @@ const NumberData = [
                      a heightened desire to take care of those around you. The influence of Venus invites you to embrace love, beauty, and harmony in your relationships. However, the challenge of Year 6
                       lies in the potential for feeling overwhelmed by your responsibilities. You may find yourself putting others’ needs before your own, leading to exhaustion or frustration. 
                       The key to navigating this year is learning how to care for others while maintaining balance in your own life. Set boundaries and prioritize self-care, ensuring you don't lose
-                       yourself in the process of giving. This year is about creating a sense of harmony at home and in your relationships, but it is also about learning to nurture yourself.
+                       yourself in the process of giving. Personally, this year is about creating a sense of harmony at home and in your relationships, but it is also about learning to nurture yourself.
                        Next year invites introspection, personal growth, and spiritual exploration. While this year was about caring for others, next year encourages you to focus inward. To prepare,
                         step back from external pressures and reflect on your nurturing efforts. Use your emotional awareness to connect more deeply with your intuition, allowing space for self-healing
                          and spiritual growth.
                 `,
 
-                7:`This is a year of deep reflection, spiritual growth, and inner transformation. You are called to slow down, focus inward, and seek deeper understanding. The influence of Neptune brings
+                7:`Personally, this is a year of deep reflection, spiritual growth, and inner transformation. You are called to slow down, focus inward, and seek deeper understanding. The influence of Neptune brings
                      a spiritual, intuitive energy, encouraging you to connect with your higher self and explore philosophical or intellectual pursuits. This year is not about external achievement but
-                      about personal development and self-discovery. The challenge of Year 7 is the temptation to isolate yourself too much or become too absorbed in introspection. You might experience
+                      about personal development and self-discovery. The challenge of this personal year is the temptation to isolate yourself too much or become too absorbed in introspection. You might experience
                        moments of doubt or confusion, but remember that this year is about inner clarity. Use the time wisely to connect with your inner wisdom and let go of old beliefs or patterns that
                         no longer serve you. Trust that your spiritual journey will guide you toward new opportunities for growth. Embrace this year as a time of quiet transformation that will set the
                          stage for future success. As this introspective year ends, Personal Year 8 focuses on power, success, and achievement. Prepare by shifting from inward reflection to focusing on
@@ -556,7 +558,7 @@ const NumberData = [
 
                 8: `In Personal Year 8, the focus shifts toward power, achievement, and material success. This year is about stepping into your personal power, taking control of your destiny, and pursuing
                      your goals with unwavering determination. The influence of Saturn brings structure and discipline, helping you build long-term success. This year is perfect for achieving your career
-                      goals, focusing on financial growth, and embracing leadership roles. However, the challenge of Year 8 lies in maintaining balance. The drive for success could lead to burnout or 
+                      goals, focusing on financial growth, and embracing leadership roles. However, the challenge of this personal year lies in maintaining balance. The drive for success could lead to burnout or 
                       power struggles with others. It is important not to let your ambition overshadow your relationships or well-being. The key to navigating this year is keeping a steady focus on your
                        goals without becoming overly attached to material gains. Create a clear plan, work hard, and stay disciplined, but remember that true power comes from within. Embrace the
                         opportunities for growth, but do not lose sight of what truly matters in the process. As the year ends, next year calls for completion, transformation, and emotional release. 
@@ -564,12 +566,12 @@ const NumberData = [
                         fresh start, focusing on your broader life vision and what you want to carry forward.
                 `,
 
-                9: `Personal Year 9 brings a sense of completion, transformation, and emotional release. This year marks the end of a significant cycle, urging you to let go of what no longer serves you.
+                9: `Personaly this year brings a sense of completion, transformation, and emotional release. This year marks the end of a significant cycle, urging you to let go of what no longer serves you.
                  It is a time of closure, reflection, and preparation for the new beginnings that are on the horizon. The influence of Mars encourages you to take action, but also to embrace change. 
-                 While you may feel a sense of loss or emotional upheaval, trust that this is necessary for your growth. The challenge of Year 9 is navigating the emotional complexities that come with
+                 While you may feel a sense of loss or emotional upheaval, trust that this is necessary for your growth. The challenge of this personal year is navigating the emotional complexities that come with
                   endings. There may be feelings of sadness or resistance to letting go, but remember that this is the clearing of space for something new to emerge. The key to navigating this year is
                    embracing change with an open heart. Release old patterns and be ready to embrace the new. This is a year for transformation—let go, trust the process, and prepare for the exciting 
-                   possibilities ahead. After this year's transformations, Personal Year 1 offers a fresh start for growth and self-discovery. To prepare, let go of remaining attachments in the final
+                   possibilities ahead. After this year's transformations, the next personal year offers a fresh start for growth and self-discovery. To prepare, let go of remaining attachments in the final
                     quarter and embrace new beginnings with confidence. Reflect on lessons learned, set bold goals, and recognize that while this year is for closing chapters, next year is about starting
                      anew. Step forward with renewed energy, knowing this year has laid the foundation for your next journey.
                 `
@@ -581,22 +583,20 @@ const NumberData = [
                 "Aries": `You are bold, enthusiastic, and full of energy. As a natural-born leader, you are not afraid to take risks or forge new paths. Your determination and passion drive you to pursue
                             your goals relentlessly, often inspiring those around you. However, your impulsive nature can sometimes lead to impatience or conflict when things do not go your way. Your life purpose is
                             to be a trailblazer, using your courage and dynamism to bring fresh ideas and energy into the world. Careers in entrepreneurship, sports, or leadership roles suit you perfectly, as you
-                            thrive in environments that allow you to take initiative and act quickly. In love, you need a partner who can match your energy and support your ambitions, like a Leo, Sagittarius, or
-                             Gemini. Be cautious of relationships with overly sensitive signs, such as Cancer or Pisces, as your fiery nature may unintentionally overwhelm them. Cultivating patience and listening
+                            thrive in environments that allow you to take initiative and act quickly. In love, you need a partner who can match your energy and support your ambitions. Be cautious of relationships with overly sensitive signs, such as Cancer or Pisces, as your fiery nature may unintentionally overwhelm them. Cultivating patience and listening
                             more will deepen your connections and help you achieve balance in life.
                 `,
                 "Taurus": `As a Taurus, you are reliable, practical, and deeply rooted in the physical world. You have a love for comfort, beauty, and stability, often taking a methodical approach to life.
                              Your patience and perseverance allow you to build a secure foundation for yourself and others. However, your stubborn nature can sometimes make you resistant to change, even 
                              when it is necessary. Your life purpose is to create stability and enjoy the finer things in life, using your determination to build lasting success. Careers in finance, 
                              architecture, culinary arts, or design align well with your love of structure and aesthetics. You excel in roles that allow you to work steadily toward long-term goals. 
-                             In relationships, you thrive with partners who share your values of loyalty and stability, like Virgo, Capricorn, or Cancer. Avoid partners who are too unpredictable,
+                             In relationships, you thrive with partners who share your values of loyalty and stability. Avoid partners who are too unpredictable,
                               as this can disrupt your sense of security. Learning to embrace change and flexibility will help you grow and find deeper fulfillment in all aspects of your life.
                 `,
                 "Gemini": `You are curious, witty, and adaptable. Your quick mind and love of communication make you the life of the party, and you are always eager to learn something new. Your versatility
                              is one of your greatest strengths, but it can sometimes make it hard for you to focus or commit to one thing. Your life purpose is to explore and share ideas, using your
                               intelligence and adaptability to connect with others and foster understanding. Careers in writing, teaching, media, or sales suit you well, as they allow you to engage with
-                               diverse perspectives and stay mentally stimulated. In love, you need a partner who appreciates your curiosity and matches your lively energy, such as a Libra, Aquarius, or
-                                Aries. Be mindful of relationships with overly emotional signs, like Cancer, as they may struggle to keep up with your ever-changing interests. Learning to slow down and
+                               diverse perspectives and stay mentally stimulated. In love, you need a partner who appreciates your curiosity and matches your lively energy. Be mindful of relationships with overly emotional signs, like Cancer, as they may struggle to keep up with your ever-changing interests. Learning to slow down and
                                  focus on meaningful connections will bring balance and depth to your life.
                 `,
                 "Cancer": `You are nurturing, empathetic, and deeply intuitive. You have a natural ability to care for others, and your strong emotional depth allows you to connect on a profound level. 
@@ -609,14 +609,14 @@ const NumberData = [
                 "Leo": `You are charismatic, confident, and creative. You thrive in the spotlight and have a natural ability to inspire others with your enthusiasm and warmth. Your generous spirit makes
                         you a beloved leader, but your need for recognition can sometimes make you overly dramatic or attention-seeking. Your life purpose is to shine and uplift others, using your creativity
                         and confidence to bring joy and inspiration into the world. Careers in entertainment, leadership, or any field that allows for self-expression are ideal for you. You thrive in roles
-                         where you can take center stage and showcase your talents. In love, you need a partner who admires your strengths and shares your zest for life, such as an Aries, Sagittarius, or Libra.
+                         where you can take center stage and showcase your talents. In love, you need a partner who admires your strengths and shares your zest for life.
                         Be cautious of relationships with overly critical signs, as they can dampen your spirit. Learning to embrace humility and focus on mutual appreciation will strengthen your 
                         relationships and lead to greater fulfillment.
                 `,
                 "Virgo": `You are analytical, practical, and detail-oriented. You have a deep desire to help others and improve the world around you, often striving for perfection in all that you do. 
                             While your meticulous nature is a strength, it can sometimes lead to self-criticism or overthinking. Your life purpose is to serve and create order, using your intelligence
                              and work ethic to make a meaningful difference. Careers in healthcare, teaching, writing, or research align with your values and allow you to use your skills to help others. 
-                             In relationships, you need a partner who appreciates your dedication and shares your practical approach to life, like a Taurus, Capricorn, or Cancer. Avoid overly impulsive
+                             In relationships, you need a partner who appreciates your dedication and shares your practical approach to life. Avoid overly impulsive
                              partners, as their unpredictability may cause stress. Embracing imperfection and finding joy in the process rather than the outcome will bring balance and happiness to your
                               life.
                 `,
@@ -624,13 +624,13 @@ const NumberData = [
                             in conflicts. Your love for beauty and social connection makes you a joy to be around, but your tendency to avoid confrontation can sometimes lead to indecision or suppressed feelings. 
                             Your life purpose is to bring balance and fairness to the world, using your charm and intellect to create unity and foster meaningful connections. Careers in law, art, design, public
                             relations, or counseling align with your ability to mediate and appreciate aesthetics. You thrive in environments where collaboration and creativity are celebrated. In relationships, 
-                            you need a partner who values harmony and supports your love for beauty and companionship, such as a Gemini, Aquarius, or Leo. Be mindful of relationships with overly independent or 
+                            you need a partner who values harmony and supports your love for beauty and companionship. Be mindful of relationships with overly independent or 
                             critical signs, as this may disrupt your need for balance. Learning to assert yourself and make decisions with confidence will empower you to find deeper fulfillment in both love and life.
                 `,
                 "Scorpio": `You are intense, passionate, and deeply intuitive. You have a magnetic presence that draws others to you, and your emotional depth allows for profound connections.
                              Your determination is unmatched, but your tendency toward secrecy or control can sometimes create tension in relationships. Your life purpose is to transform and uncover truth,
                               using your resilience and insight to help yourself and others grow. Careers in psychology, research, investigative work, or healing are ideal for you, as they allow you to 
-                              delve into the mysteries of life and make a lasting impact. love, you need a partner who can match your emotional intensity and loyalty, like a Cancer, Pisces, or Taurus.
+                              delve into the mysteries of life and make a lasting impact. love, you need a partner who can match your emotional intensity and loyalty.
                                Be cautious of relationships where trust feels compromised, as betrayal can cut deeply for you. Embracing vulnerability and learning to let go of control will help you
                                 form stronger and more fulfilling bonds with others.
                 `,
@@ -638,28 +638,28 @@ const NumberData = [
                                  and intellectually. While your enthusiasm is contagious, your restlessness can sometimes make it hard for you to stay grounded or committed. Your life purpose is to 
                                  explore and inspire, using your adventurous spirit to encourage others to embrace growth and possibility. Careers in travel, education, writing, or entrepreneurship
                                   align with your desire for variety and meaning. You thrive in roles that allow for exploration and sharing knowledge. In relationships, you need a partner who values
-                                   independence and adventure as much as you do, such as an Aries, Leo, or Aquarius. Avoid relationships that feel overly restrictive, as they can stifle your free spirit.
+                                   independence and adventure as much as you do. Avoid relationships that feel overly restrictive, as they can stifle your free spirit.
                                     Learning to balance your wanderlust with deeper emotional connections will lead to greater happiness and fulfillment.
                 `,
                 "Capricorn": `As a Capricorn, you are disciplined, ambitious, and deeply focused on achieving your goals. Your practical nature and strong work ethic make you a natural leader, and you
                                  often succeed in turning your dreams into reality. However, your focus on success can sometimes lead to workaholism or a tendency to suppress your emotions. Your life 
                                  purpose is to build and achieve, using your determination and resourcefulness to create a legacy. Careers in business, finance, law, or any structured field suit you 
                                  perfectly, as they align with your drive for success and stability. You excel in roles that require strategic planning and long-term commitment. In relationships, you need
-                                  a partner who appreciates your ambition and provides emotional support, like a Taurus, Virgo, or Scorpio. Be cautious of relationships with overly carefree or impulsive
+                                  a partner who appreciates your ambition and provides emotional support. Be cautious of relationships with overly carefree or impulsive
                                    signs, as they may clash with your methodical nature. Learning to prioritize self-care and emotional intimacy will help you create a well-rounded and fulfilling life.
                 `,
                 "Aquarius": `You are innovative, independent, and deeply idealistic. You thrive on intellectual stimulation and often think outside the box, coming up with creative solutions to complex 
                                 problems. Your progressive nature inspires those around you, but your detachment can sometimes make you seem aloof or unapproachable. Your life purpose is to innovate and
                                  advocate, using your visionary ideas to create positive change in the world. Careers in technology, science, social activism, or the arts align with your desire to break
                                   boundaries and push for progress. You excel in environments that encourage unconventional thinking and collaboration. In love, you need a partner who values your 
-                                  independence and shares your intellectual curiosity, like a Gemini, Libra, or Sagittarius. Be cautious of relationships that demand too much emotional expression, 
+                                  independence and shares your intellectual curiosity. Be cautious of relationships that demand too much emotional expression, 
                                   as you prefer a more balanced and rational connection. Learning to embrace vulnerability and connect on a deeper level will enrich your relationships and personal growth.
                 `,
                 "Pisces": `You are empathetic, imaginative, and deeply intuitive. You have a rich inner world and a natural ability to understand the emotions of others, often acting as a source
                              of comfort and inspiration. Your compassion is one of your greatest strengths, but it can sometimes lead to self-sacrifice or difficulty setting boundaries. Your life purpose
                               is to inspire and heal, using your creativity and empathy to uplift others. Careers in the arts, healing professions, counseling, or spiritual work align with your desire
                                to connect and bring beauty into the world. You thrive in roles that allow for emotional expression and meaningful impact. In relationships, you need a partner who values
-                                emotional intimacy and shares your dreamy outlook on life, like a Cancer, Scorpio, or Taurus. Be cautious of relationships with overly analytical or detached signs, as 
+                                emotional intimacy and shares your dreamy outlook on life. Be cautious of relationships with overly analytical or detached signs, as 
                                 they may struggle to understand your sensitivity. Embracing your boundaries and learning to balance giving with receiving will help you create more harmonious connections
                                  and a fulfilling life.
                 `
@@ -775,14 +775,14 @@ const NumberData = [
                     Parents and caregivers should encourage your natural leadership abilities while teaching cooperation and patience to avoid feelings of isolation. As you move into adolescence,
                      this drive for independence becomes even more pronounced. You might feel a desire to carve out your own path and make decisions without interference. While your ambition can be
                       a powerful motivator, it is essential to balance this with understanding and collaboration. Learning to work with others will help you grow as a leader. During young adulthood, 
-                      the energy of Pinnacle 1 pushes you to take bold steps in defining your career and personal life. This is the time to embrace leadership roles and take risks in pursuit of your 
+                      this energy pushes you to take bold steps in defining your career and personal life. This is the time to embrace leadership roles and take risks in pursuit of your 
                       goals. While ambition will propel you forward, remember to cultivate relationships and remain open to advice from trusted mentors.
                 `,
 
                 2: `In childhood, this cycle often brings heightened sensitivity and a deep connection to your emotions. You may be shy or reserved, preferring close, nurturing relationships.
-                     This is a period to build self-confidence and develop resilience, as the world can sometimes feel overwhelming. Adolescence under Pinnacle 2 emphasizes relationships and emotional
+                     This is a period to build self-confidence and develop resilience, as the world can sometimes feel overwhelming. Adolescence under this energy, emphasizes relationships and emotional
                       awareness. You may find yourself drawn to partnerships or collaborative projects. While this can be a time of deep connection, it is important to maintain boundaries and develop
-                       a sense of independence alongside your cooperative nature. In young adulthood, the energy of Pinnacle 2 encourages balance and harmony in both personal and professional spheres.
+                       a sense of independence alongside your cooperative nature. In young adulthood, this vibration encourages balance and harmony in both personal and professional spheres.
                         Focus on creating meaningful connections and using your intuition to guide important decisions. Learning to assert yourself without fear of conflict will help you navigate
                          this phase successfully.
                 `,
@@ -790,27 +790,27 @@ const NumberData = [
                 3: `As a child,this vibration brings a playful, creative energy. You may enjoy storytelling, art, or performing, with a natural ability to entertain and captivate others. 
                     Encouragement from caregivers is vital to help you harness this energy constructively while maintaining focus on responsibilities. In adolescence, this creative spark often
                      translates into a vibrant social life and a love for exploration. However, the challenge lies in balancing your desire for fun with the need to stay grounded. Using your creativity
-                      to express emotions and solve problems can help you navigate this phase effectively. During young adulthood, Pinnacle 3 invites you to pursue creative endeavors and embrace
+                      to express emotions and solve problems can help you navigate this phase effectively. During young adulthood, this energy invites you to pursue creative endeavors and embrace
                        opportunities for self-expression. Whether through art, writing, or other ventures, this is a time to align your passions with your career goals. Cultivate discipline to ensure
                         your talents are channeled productively.
                 `,
 
                 4:`In childhood, you may find comfort in predictability and excel in organized environments. Encouraging flexibility and adaptability early on will help you handle unexpected changes
                  more gracefully. As a teenager, this vibration instills a sense of responsibility and determination. While you may be diligent in your studies or hobbies, there is a risk of becoming
-                  overly serious. Balance hard work with leisure and spontaneity to avoid burnout. Young adulthood under Pinnacle 4 emphasizes building solid foundations. Whether in your career or
+                  overly serious. Balance hard work with leisure and spontaneity to avoid burnout. Young adulthood under this vibration emphasizes building solid foundations. Whether in your career or
                    relationships, this is a time for discipline and planning. Focus on creating systems that support your long-term goals while remaining open to innovation and change.
                 `,
 
                 5: `In childhood, you may enjoy exploring new places, asking endless questions, and trying different activities. Guiding this enthusiasm with gentle boundaries will help you develop
-                 focus while nurturing your love for freedom. Adolescence under Pinnacle 5 can be a time of experimentation and rebellion. You may resist restrictions and seek opportunities to
-                  express your individuality. While it is important to embrace your independence, learning accountability and consistency will help you grow. As a young adult, Pinnacle 5 invites
+                 focus while nurturing your love for freedom. Adolescence under this influence, can be a time of experimentation and rebellion. You may resist restrictions and seek opportunities to
+                  express your individuality. While it is important to embrace your independence, learning accountability and consistency will help you grow. As a young adult, this energy/vibration might promote
                    exploration, adaptability, and embracing change. This is a time to take risks and pursue diverse opportunities, from travel to career shifts. While freedom is key, maintaining
                     a sense of purpose will ensure your choices support your long-term aspirations.
                 `,
 
                 6: `In childhood, this vibration often reveals itself through a caring and nurturing nature. You may feel protective of family and friends, taking on responsibilities beyond your years.
                     While this is admirable, ensure you are not overburdened with adult concerns too early. As a teenager, relationships and family dynamics take center stage. You may feel a deep need to
-                  care for others or seek harmony in your environment. Balancing your desire to help with your personal needs will be crucial. In young adulthood, this pinnacle encourages creating stability
+                  care for others or seek harmony in your environment. Balancing your desire to help with your personal needs will be crucial. In young adulthood, this pinnacle influence encourages creating stability
                    in relationships, career, and home life. This is a time to focus on building meaningful connections and taking responsibility for your choices. Embrace opportunities to nurture others 
                    while maintaining a healthy sense of self.
                 `,
@@ -883,7 +883,7 @@ const NumberData = [
                        matter most.
                 `,
                 
-                7: `The First Pinnacle Cycle 7 is a period of introspection, spiritual growth, and intellectual exploration. Life will guide you toward seeking deeper meaning and understanding in all
+                7: `The cycle is a period of introspection, spiritual growth, and intellectual exploration. Life will guide you toward seeking deeper meaning and understanding in all
                      areas. Expect to feel a pull toward solitude, reflection, and personal development. To navigate this cycle, embrace the quiet moments and allow yourself to dive into self-discovery.
                      This cycle is a time of deep reflection and personal growth. In your career, you may be drawn to research, education, or spiritual pursuits. Relationships may take on a quieter, 
                      more introspective tone, requiring patience and understanding. Challenges include isolation or overthinking, so strive to maintain connections with others. Use this time to deepen
@@ -914,7 +914,7 @@ const NumberData = [
         {
             title: "third_pinnacle_cycle",
             value: {
-                1: `During this pinnacle, the focus is on reclaiming your independence and asserting your individuality. In this phase of life, you may feel a strong pull to start new ventures or take
+                1: `During this cycle, the focus is on reclaiming your independence and asserting your individuality. In this phase of life, you may feel a strong pull to start new ventures or take
                      charge in your career. It's a time to lead with confidence and prioritize personal goals. Challenges may include a tendency to isolate yourself or to resist collaboration. 
                      To navigate this phase effectively, embrace your unique strengths while staying open to advice and support from others. Use this time to redefine your identity and step boldly into
                       leadership roles.
@@ -926,7 +926,7 @@ const NumberData = [
                       family life.
                 `,
 
-                3: `Under this vibration, the third pinnacle brings a renewed sense of joy, creativity, and self-expression. You may feel a desire to explore hobbies, creative outlets, or roles that
+                3: `Under this vibration, the pinnacle brings a renewed sense of joy, creativity, and self-expression. You may feel a desire to explore hobbies, creative outlets, or roles that
                      allow for innovation. This is a time to embrace the lighter, more playful side of life while maintaining a sense of purpose. Challenges could include scattering your energy or 
                      losing focus. To make the most of this phase, prioritize projects and relationships that inspire you, and find ways to bring a sense of fun and fulfillment into your daily routine.
                 `,

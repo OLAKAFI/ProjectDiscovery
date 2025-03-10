@@ -8,6 +8,15 @@ function FullReport({ results }) {
     return (
         <section className="mt-4">
           <h2 className='mt-2 mb-5 text-center text-white fw-bold display-4'>Results</h2>
+          <h4 style={{color:'yellow', fontStyle:'italic', fontWeight: 'bold'}}>
+              DiscoverMe is a self-discovery platform is designed to provide insights into personality and life purpose using fundamental principles of astrology and numerology. 
+              The primary goal of this website is to foster self-awareness and a deeper understanding of yourself and those around you. 
+              While many individuals find these insights to be highly relatable, it is important to remember that they represent broad tendencies
+               rather than definitive conclusions. Personal experiences, beliefs, and life choices all play a significant role in shaping one’s journey,
+                and variations from person to person are natural. This platform is intended for self-exploration and personal growth. It should not be considered a rigid
+                 or absolute guide, nor a substitute for professional advice in any area of life. We encourage an open mind, curiosity, and a balanced perspective while 
+                 engaging with the information provided.
+          </h4>
           <br/>
           <Row>
             {Object.entries(results).map(([key, value]) => {

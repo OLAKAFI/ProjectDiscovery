@@ -15,12 +15,21 @@ const Introduction = () => {
     <section className="introduction">
       <div className="content text-center ">
         <h1>Hello {fullName}!</h1>
-        <h1 className="display-5 fw-bold">Welcome to Discover Me</h1>
-        <p>
-          This is a platform that gives you the opportunity to start or continue
+        <h1 className="display-5 fw-bold">Welcome to DiscoverMe</h1>
+        <br></br>
+        <br></br>
+        <h5 >
+          This platform offers you deep insights into your personality, strengths, challenges, and life purpose. Whether you’re seeking clarity about yourself or a better understanding
+           of those around you, our tools are designed to guide you on a journey of self-discovery. 
           your self-discovery journey.
-        </p>
-        <Button onClick={handleInsight} variant="primary" size="lg" className="my-3 fs-5">Get More Insight</Button>
+          Every individual is unique, and while our insights provide a strong foundation, your experiences,
+            choices, and mindset shape your path. Take this as an opportunity to reflect, explore, and embrace the knowledge that resonates with you.
+            At DiscoverMe, we believe that self-awareness is the key to personal growth and fulfillment. Start your journey today and uncover the hidden patterns that influence your life!
+            This is a platform that gives you the opportunity to start or continue
+        </h5>
+        
+      
+        <Button onClick={handleInsight} variant="primary" size="lg" className="mt-5 fs-5">Get More Insight</Button>
       </div>
     </section>
   );

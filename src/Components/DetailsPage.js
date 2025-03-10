@@ -50,6 +50,7 @@ function DetailsPage() {
     const SecondPinnacleCycle = calculateSecondPinnacleCycle(day, year);
     const ThirdPinnacleCycle = calculateThirdPinnacleCycle(day,month, year);
     const FourthPinnacleCycle = calculateFourthPinnacleCycle(month, year);
+    
 
     setResults({
       PersonalityNumber,
