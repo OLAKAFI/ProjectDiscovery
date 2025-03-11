@@ -577,13 +577,14 @@ const NumberData = [
                 `
             },
         },
+        
         {
             "title": "western_zodiac",
             "value": {
                 "Aries": `You are bold, enthusiastic, and full of energy. As a natural-born leader, you are not afraid to take risks or forge new paths. Your determination and passion drive you to pursue
                             your goals relentlessly, often inspiring those around you. However, your impulsive nature can sometimes lead to impatience or conflict when things do not go your way. Your life purpose is
                             to be a trailblazer, using your courage and dynamism to bring fresh ideas and energy into the world. Careers in entrepreneurship, sports, or leadership roles suit you perfectly, as you
-                            thrive in environments that allow you to take initiative and act quickly. In love, you need a partner who can match your energy and support your ambitions. Be cautious of relationships with overly sensitive signs, such as Cancer or Pisces, as your fiery nature may unintentionally overwhelm them. Cultivating patience and listening
+                            thrive in environments that allow you to take initiative and act quickly. In love, you need a partner who can match your energy and support your ambitions. Be cautious of relationships with overly sensitive partners, as your fiery nature may unintentionally overwhelm them. Cultivating patience and listening
                             more will deepen your connections and help you achieve balance in life.
                 `,
                 "Taurus": `As a Taurus, you are reliable, practical, and deeply rooted in the physical world. You have a love for comfort, beauty, and stability, often taking a methodical approach to life.
@@ -596,13 +597,13 @@ const NumberData = [
                 "Gemini": `You are curious, witty, and adaptable. Your quick mind and love of communication make you the life of the party, and you are always eager to learn something new. Your versatility
                              is one of your greatest strengths, but it can sometimes make it hard for you to focus or commit to one thing. Your life purpose is to explore and share ideas, using your
                               intelligence and adaptability to connect with others and foster understanding. Careers in writing, teaching, media, or sales suit you well, as they allow you to engage with
-                               diverse perspectives and stay mentally stimulated. In love, you need a partner who appreciates your curiosity and matches your lively energy. Be mindful of relationships with overly emotional signs, like Cancer, as they may struggle to keep up with your ever-changing interests. Learning to slow down and
+                               diverse perspectives and stay mentally stimulated. In love, you need a partner who appreciates your curiosity and matches your lively energy. Be mindful of relationships with overly emotional partners, as they may struggle to keep up with your ever-changing interests. Learning to slow down and
                                  focus on meaningful connections will bring balance and depth to your life.
                 `,
                 "Cancer": `You are nurturing, empathetic, and deeply intuitive. You have a natural ability to care for others, and your strong emotional depth allows you to connect on a profound level. 
                             While your sensitivity is one of your greatest strengths, it can sometimes lead to moodiness or withdrawing when you feel hurt. Your life purpose is to create emotional 
                             security and foster deep connections, both within your personal life and your community. Careers in caregiving, counseling, teaching, or the culinary arts align with your
-                             compassionate nature and desire to help others. In relationships, you need a partner who values emotional intimacy and offers stability, like a Taurus, Virgo, or Scorpio. 
+                             compassionate nature and desire to help others. In relationships, you need a partner who values emotional intimacy and offers stability. 
                              Avoid partners who are too detached, as this can make you feel unsupported. Embracing your sensitivity as a strength and learning to set boundaries will help you build 
                              relationships that nourish your soul.
                 `,
@@ -610,7 +611,7 @@ const NumberData = [
                         you a beloved leader, but your need for recognition can sometimes make you overly dramatic or attention-seeking. Your life purpose is to shine and uplift others, using your creativity
                         and confidence to bring joy and inspiration into the world. Careers in entertainment, leadership, or any field that allows for self-expression are ideal for you. You thrive in roles
                          where you can take center stage and showcase your talents. In love, you need a partner who admires your strengths and shares your zest for life.
-                        Be cautious of relationships with overly critical signs, as they can dampen your spirit. Learning to embrace humility and focus on mutual appreciation will strengthen your 
+                        Be cautious of relationships with overly critical partner, as they can dampen your spirit. Learning to embrace humility and focus on mutual appreciation will strengthen your 
                         relationships and lead to greater fulfillment.
                 `,
                 "Virgo": `You are analytical, practical, and detail-oriented. You have a deep desire to help others and improve the world around you, often striving for perfection in all that you do. 
@@ -625,7 +626,7 @@ const NumberData = [
                             Your life purpose is to bring balance and fairness to the world, using your charm and intellect to create unity and foster meaningful connections. Careers in law, art, design, public
                             relations, or counseling align with your ability to mediate and appreciate aesthetics. You thrive in environments where collaboration and creativity are celebrated. In relationships, 
                             you need a partner who values harmony and supports your love for beauty and companionship. Be mindful of relationships with overly independent or 
-                            critical signs, as this may disrupt your need for balance. Learning to assert yourself and make decisions with confidence will empower you to find deeper fulfillment in both love and life.
+                            critical patner, as this may disrupt your need for balance. Learning to assert yourself and make decisions with confidence will empower you to find deeper fulfillment in both love and life.
                 `,
                 "Scorpio": `You are intense, passionate, and deeply intuitive. You have a magnetic presence that draws others to you, and your emotional depth allows for profound connections.
                              Your determination is unmatched, but your tendency toward secrecy or control can sometimes create tension in relationships. Your life purpose is to transform and uncover truth,
@@ -646,7 +647,7 @@ const NumberData = [
                                  purpose is to build and achieve, using your determination and resourcefulness to create a legacy. Careers in business, finance, law, or any structured field suit you 
                                  perfectly, as they align with your drive for success and stability. You excel in roles that require strategic planning and long-term commitment. In relationships, you need
                                   a partner who appreciates your ambition and provides emotional support. Be cautious of relationships with overly carefree or impulsive
-                                   signs, as they may clash with your methodical nature. Learning to prioritize self-care and emotional intimacy will help you create a well-rounded and fulfilling life.
+                                   partner, as they may clash with your methodical nature. Learning to prioritize self-care and emotional intimacy will help you create a well-rounded and fulfilling life.
                 `,
                 "Aquarius": `You are innovative, independent, and deeply idealistic. You thrive on intellectual stimulation and often think outside the box, coming up with creative solutions to complex 
                                 problems. Your progressive nature inspires those around you, but your detachment can sometimes make you seem aloof or unapproachable. Your life purpose is to innovate and
@@ -659,7 +660,7 @@ const NumberData = [
                              of comfort and inspiration. Your compassion is one of your greatest strengths, but it can sometimes lead to self-sacrifice or difficulty setting boundaries. Your life purpose
                               is to inspire and heal, using your creativity and empathy to uplift others. Careers in the arts, healing professions, counseling, or spiritual work align with your desire
                                to connect and bring beauty into the world. You thrive in roles that allow for emotional expression and meaningful impact. In relationships, you need a partner who values
-                                emotional intimacy and shares your dreamy outlook on life. Be cautious of relationships with overly analytical or detached signs, as 
+                                emotional intimacy and shares your dreamy outlook on life. Be cautious of relationships with overly analytical or detached people, as 
                                 they may struggle to understand your sensitivity. Embracing your boundaries and learning to balance giving with receiving will help you create more harmonious connections
                                  and a fulfilling life.
                 `
